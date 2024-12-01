@@ -340,7 +340,7 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -410,6 +410,10 @@
     [
       "0d177ca6-e392-45a0-9514-d370436392ef",
       "루트"
+    ],
+    [
+      "4500522c-e4c8-424c-82ea-be640253686b",
+      "MCU"
     ]
   ],
   "text_variables": {}
