@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "9de7dfc6-6a6f-4070-8fcb-ffe8ac1b7aa3")
 	(paper "A4")
+	(title_block
+		(comment 1 "See the file \"LICENSE\" in the main directory of this archive for more details.")
+		(comment 2 "This file is subject to the terms and conditions of the MIT License.")
+		(comment 3 "Copyright (c) 2024 Yoon-Ki Hong")
+	)
 	(lib_symbols
 		(symbol "Capacitor_MLCC:0603B104K500"
 			(pin_numbers hide)
@@ -2246,6 +2251,386 @@
 				)
 			)
 		)
+		(symbol "Resistor:WR06X0000JTL"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "WR06X0000JTL"
+				(at 0 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SMR:0603"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "0 Ohm 5% 1/10W"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "WALSIN"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "#Value" "0000"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SMR2012 SMR3216 MPM262_283_REG SMR1608 SMR5025"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WR06X0000JTL_0_0"
+				(text "06"
+					(at -3.556 0.635 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "WR06X0000JTL_0_1"
+				(rectangle
+					(start -2.794 -0.889)
+					(end 2.794 0.889)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WR06X0000JTL_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Resistor:WR06X1002FTL"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "WR06X1002FTL"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SMR:0603"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "10 kOhm 1% 1/10W"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "WALSIN"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "#Value" "1002"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SMR2012 SMR3216 MPM262_283_REG SMR1608 SMR5025"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WR06X1002FTL_0_0"
+				(text "06"
+					(at -3.556 0.635 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "WR06X1002FTL_0_1"
+				(rectangle
+					(start -2.794 -0.889)
+					(end 2.794 0.889)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WR06X1002FTL_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 2.286 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3.3V"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.762) (xy 0 0.762) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -2334,6 +2719,30 @@
 		)
 	)
 	(junction
+		(at 176.53 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c656a48-adc5-4541-afc0-e6814ace9ff7")
+	)
+	(junction
+		(at 176.53 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18db865f-128e-40fa-81d1-5cb8486fd79b")
+	)
+	(junction
+		(at 176.53 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eca4b94-0cda-44ad-9ac5-e5aae92b36ec")
+	)
+	(junction
+		(at 176.53 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76980976-2848-4f71-a58c-90c9371a8bcf")
+	)
+	(junction
 		(at 142.24 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2344,6 +2753,36 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c4aec4c-f83d-4414-910b-4578d6e70f1c")
+	)
+	(junction
+		(at 176.53 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9317826a-3833-442a-85b9-1a6619d28893")
+	)
+	(junction
+		(at 176.53 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9eec7ad-6a0e-4b9d-8bef-517deae19fb9")
+	)
+	(junction
+		(at 176.53 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb5a9dfb-6d77-4b8e-a246-bc1d175d06a3")
+	)
+	(junction
+		(at 85.09 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddae76ec-d262-45f9-a374-ea990c3dcd61")
+	)
+	(junction
+		(at 176.53 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff688e73-d542-41c8-a5d2-259472658698")
 	)
 	(wire
 		(pts
@@ -2367,6 +2806,76 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 135.89) (xy 176.53 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258df6a4-b92b-45b7-89bb-3ae420a4c31c")
+	)
+	(wire
+		(pts
+			(xy 251.46 67.31) (xy 251.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7a867c-db41-4740-85a3-32af043b8dac")
+	)
+	(wire
+		(pts
+			(xy 85.09 158.75) (xy 85.09 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373a9a8d-f4aa-4bd7-a5b6-9e22a118c829")
+	)
+	(wire
+		(pts
+			(xy 259.08 63.5) (xy 259.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7d3b78-0d75-4032-919d-f6182f543466")
+	)
+	(wire
+		(pts
+			(xy 259.08 67.31) (xy 259.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a045f3-fb64-4781-bf4e-7069610494dc")
+	)
+	(wire
+		(pts
+			(xy 228.6 63.5) (xy 228.6 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f28911-e14d-4136-bb34-798580d13a48")
+	)
+	(wire
+		(pts
+			(xy 176.53 140.97) (xy 176.53 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8d4a40-bdfe-48fb-8b5e-c62e37e03883")
+	)
+	(wire
+		(pts
 			(xy 109.22 179.07) (xy 109.22 181.61)
 		)
 		(stroke
@@ -2374,6 +2883,16 @@
 			(type default)
 		)
 		(uuid "5d63a2b5-abdf-40cc-abf8-c406e8825b46")
+	)
+	(wire
+		(pts
+			(xy 173.99 53.34) (xy 176.53 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d826cc1-0e9a-4ad1-a070-b94ea3386f8c")
 	)
 	(wire
 		(pts
@@ -2387,6 +2906,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 135.89) (xy 176.53 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68215328-7c5a-4a13-87aa-e3732edf69ed")
+	)
+	(wire
+		(pts
 			(xy 173.99 118.11) (xy 194.31 118.11)
 		)
 		(stroke
@@ -2394,6 +2923,46 @@
 			(type default)
 		)
 		(uuid "6f9496fc-c5e5-4f7e-804b-eaa6362d1322")
+	)
+	(wire
+		(pts
+			(xy 173.99 138.43) (xy 176.53 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7119d71b-3894-4623-bbfb-1a4581a83ae0")
+	)
+	(wire
+		(pts
+			(xy 176.53 55.88) (xy 176.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784fd7ac-beed-42fe-a904-c36e663816a7")
+	)
+	(wire
+		(pts
+			(xy 176.53 60.96) (xy 176.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc9d449-62ba-41be-a350-b6a6dac53488")
+	)
+	(wire
+		(pts
+			(xy 76.2 171.45) (xy 85.09 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8c4246-e494-4d53-b2dd-33daed987659")
 	)
 	(wire
 		(pts
@@ -2417,6 +2986,36 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 66.04) (xy 176.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e78257f-32d8-434b-bd4a-c52fbf2dd944")
+	)
+	(wire
+		(pts
+			(xy 173.99 127) (xy 194.31 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acb0201-dd92-47dc-9cdf-f21811426230")
+	)
+	(wire
+		(pts
+			(xy 176.53 58.42) (xy 173.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b04fc0f-2536-48b1-92bd-0442f69cf713")
+	)
+	(wire
+		(pts
 			(xy 173.99 69.85) (xy 194.31 69.85)
 		)
 		(stroke
@@ -2424,6 +3023,56 @@
 			(type default)
 		)
 		(uuid "8f794534-b2b2-4e47-b015-ca635bb76755")
+	)
+	(wire
+		(pts
+			(xy 176.53 53.34) (xy 176.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b65cb7a-27e6-4275-9a10-f6ca2523e5a5")
+	)
+	(wire
+		(pts
+			(xy 85.09 181.61) (xy 85.09 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9efdaa81-a038-45e2-8776-8115e3a1e8a7")
+	)
+	(wire
+		(pts
+			(xy 173.99 133.35) (xy 176.53 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37f7bd9-199e-42bd-b33b-598e89b22e84")
+	)
+	(wire
+		(pts
+			(xy 176.53 133.35) (xy 176.53 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d47d82-3dc3-4d14-a988-6f3772dc9b9d")
+	)
+	(wire
+		(pts
+			(xy 173.99 130.81) (xy 176.53 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ea503f-0759-4ede-8520-30c7e961b39a")
 	)
 	(wire
 		(pts
@@ -2447,6 +3096,66 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 67.31) (xy 236.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e78a6d-82f6-4785-9aa2-4a4a4f3460e3")
+	)
+	(wire
+		(pts
+			(xy 176.53 58.42) (xy 176.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82fde17-9d7a-4c01-b2a1-e915e4cdb770")
+	)
+	(wire
+		(pts
+			(xy 176.53 138.43) (xy 176.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1bdfd9-dc83-4b89-be46-a41cbf764969")
+	)
+	(wire
+		(pts
+			(xy 251.46 63.5) (xy 251.46 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbdab6e1-0526-4056-97b0-e77c882b65cc")
+	)
+	(wire
+		(pts
+			(xy 176.53 60.96) (xy 173.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce40931-5e3e-49b2-8e5a-09a85cf22514")
+	)
+	(wire
+		(pts
+			(xy 176.53 48.26) (xy 176.53 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4929762-937b-491f-9074-15a5844dedcb")
+	)
+	(wire
+		(pts
 			(xy 142.24 173.99) (xy 152.4 173.99)
 		)
 		(stroke
@@ -2467,6 +3176,66 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 130.81) (xy 176.53 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca174131-f174-4983-b5e8-55dd42549cd1")
+	)
+	(wire
+		(pts
+			(xy 228.6 67.31) (xy 228.6 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2f9700-a2c0-485d-a6bc-f119e7171357")
+	)
+	(wire
+		(pts
+			(xy 173.99 140.97) (xy 176.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb18f285-ccda-4d28-ba25-9726628cc3fd")
+	)
+	(wire
+		(pts
+			(xy 236.22 63.5) (xy 236.22 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1d9ce2-61ce-4510-a63b-7168f0826ecc")
+	)
+	(wire
+		(pts
+			(xy 85.09 173.99) (xy 85.09 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5db75a5-e30b-4084-af45-d90d3875a20a")
+	)
+	(wire
+		(pts
+			(xy 176.53 55.88) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded4b36c-213d-40fb-97a0-d73af379b89a")
+	)
+	(wire
+		(pts
 			(xy 121.92 173.99) (xy 132.08 173.99)
 		)
 		(stroke
@@ -2477,6 +3246,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 168.91) (xy 85.09 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23a1587-e38b-49d0-bcdf-542b923cb560")
+	)
+	(wire
+		(pts
+			(xy 243.84 67.31) (xy 243.84 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa57646a-a388-48cb-b539-a5303772d641")
+	)
+	(wire
+		(pts
 			(xy 173.99 115.57) (xy 194.31 115.57)
 		)
 		(stroke
@@ -2484,6 +3273,38 @@
 			(type default)
 		)
 		(uuid "fdbb7d3c-cd67-4997-9cd9-72fc65f56d42")
+	)
+	(wire
+		(pts
+			(xy 243.84 63.5) (xy 243.84 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed64c28-d6b3-49ac-b024-dd195f03f10d")
+	)
+	(label "BOOT0"
+		(at 194.31 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01e2d62c-66d1-4a27-ae70-14edd6f80fbf")
+	)
+	(label "BOOT0"
+		(at 76.2 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c185ea6-70d1-4459-a272-ff150b708c6f")
 	)
 	(label "VCAP"
 		(at 194.31 69.85 180)
@@ -2553,6 +3374,381 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 251.46 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "036d7936-850c-40b6-9698-125d46663789")
+		(property "Reference" "#PWR012"
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 70.358 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aa93012-7b7b-4ea1-906f-716a289152f1")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor_MLCC:0603B104K500")
+		(at 259.08 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07b9dfcf-ce6e-48d6-ad56-dee86999afed")
+		(property "Reference" "C8"
+			(at 260.35 64.77 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0603B104K500"
+			(at 259.08 71.12 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMC:0603"
+			(at 259.08 72.39 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V X7R"
+			(at 259.08 73.66 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 259.08 69.85 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "104p"
+			(at 260.35 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6ba24ebc-bd6f-42aa-aa55-36d61f3fc542")
+		)
+		(pin "2"
+			(uuid "2ea72d59-7d19-407a-859e-86a2769ab6f1")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor_MLCC:0603B104K500")
+		(at 236.22 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f732e32-5e85-456b-ba0a-c59b5b843ad6")
+		(property "Reference" "C5"
+			(at 237.49 64.77 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0603B104K500"
+			(at 236.22 71.12 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMC:0603"
+			(at 236.22 72.39 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V X7R"
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "104p"
+			(at 237.49 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "dd51c028-2f1f-4445-84dd-1e095c2dc76c")
+		)
+		(pin "2"
+			(uuid "d3044e8a-6d63-41a7-b596-3235d3a9b654")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "135292dc-9841-4bd3-9c18-7889811fd9e5")
+		(property "Reference" "#PWR010"
+			(at 243.84 68.58 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 70.358 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee3b893f-5bf5-426b-ada8-45fccd6a0a44")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 236.22 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c2374df-2347-4731-b0ca-f23e413183da")
+		(property "Reference" "#PWR07"
+			(at 236.22 61.214 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 236.22 61.214 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ce8d74e-3c4d-4ced-81dc-56e85db99dc5")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 132.08 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2611,6 +3807,511 @@
 			(project ""
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor_MLCC:0603B104K500")
+		(at 243.84 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fb9c2f5-adde-4028-9bfe-68ad4beccc76")
+		(property "Reference" "C6"
+			(at 245.11 64.77 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0603B104K500"
+			(at 243.84 71.12 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMC:0603"
+			(at 243.84 72.39 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V X7R"
+			(at 243.84 73.66 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 243.84 69.85 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "104p"
+			(at 245.11 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5cec848a-e480-45c4-bd57-4b151801b0ec")
+		)
+		(pin "2"
+			(uuid "4945f306-dd1e-45a8-b837-5fc024990c26")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 243.84 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "340398dd-2e74-4b3c-8e99-53103e8852d3")
+		(property "Reference" "#PWR09"
+			(at 243.84 61.214 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 243.84 61.214 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d42e333d-9656-4b57-a42b-4e1fc0de3ff2")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51f51486-52b5-4cd1-bdbe-de090c14e0f7")
+		(property "Reference" "#PWR06"
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 70.358 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f747d9b2-2714-4665-81cd-2893fa004892")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a0c2814-f355-4703-b2f5-22a1a7f6c592")
+		(property "Reference" "#PWR016"
+			(at 85.09 184.15 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 185.928 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ce6b8c2-1f89-4be8-8c75-affd9a524980")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 259.08 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5faad9c1-f8b9-4880-a4ab-e6733b672231")
+		(property "Reference" "#PWR013"
+			(at 259.08 61.214 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 259.08 61.214 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feee39b3-bf5b-409f-ad5b-d590d291c6fe")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 228.6 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f15bc47-4721-417a-b2ba-166c11751af5")
+		(property "Reference" "#PWR05"
+			(at 228.6 61.214 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 228.6 61.214 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "856a83f1-23d0-4521-8f1e-6dda194a7176")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor_MLCC:0603B104K500")
+		(at 251.46 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a3a4de1-dffe-4fba-ba4c-29bba1337006")
+		(property "Reference" "C7"
+			(at 252.73 64.77 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0603B104K500"
+			(at 251.46 71.12 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMC:0603"
+			(at 251.46 72.39 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V X7R"
+			(at 251.46 73.66 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 251.46 69.85 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "104p"
+			(at 252.73 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "7bef499b-e132-4d9b-85e6-9dcf8f7fc6b0")
+		)
+		(pin "2"
+			(uuid "768934a0-2088-4dbb-98e5-a1e06d65f3ee")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2982,8 +4683,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistor:WR06X1002FTL")
+		(at 85.09 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84e177ae-800b-4345-a1c7-ced095f30a29")
+		(property "Reference" "R1"
+			(at 83.058 177.8 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X1002FTL"
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 90.17 177.8 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.058 177.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "10 kOhm 1% 1/10W"
+			(at 91.44 177.8 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 87.63 177.8 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "1002"
+			(at 85.09 177.8 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d678bf0-966f-4a99-9876-f17321bc14f1")
+		)
+		(pin "2"
+			(uuid "eab0b6a2-0db8-423d-bad8-6cc68d7d3385")
+		)
+		(instances
+			(project ""
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capacitor_MLCC:0603B104K500")
-		(at 246.38 72.39 0)
+		(at 228.6 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2992,7 +4780,7 @@
 		(fields_autoplaced yes)
 		(uuid "88d0d33d-ca79-40d5-9ee5-9d8752c7a3af")
 		(property "Reference" "C4"
-			(at 247.65 71.12 0)
+			(at 229.87 64.77 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3002,7 +4790,7 @@
 			)
 		)
 		(property "Value" "0603B104K500"
-			(at 246.38 77.47 0)
+			(at 228.6 71.12 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3011,7 +4799,7 @@
 			)
 		)
 		(property "Footprint" "SMC:0603"
-			(at 246.38 78.74 0)
+			(at 228.6 72.39 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3020,7 +4808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 71.12 0)
+			(at 231.14 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3029,7 +4817,7 @@
 			)
 		)
 		(property "Description" "100nF ±10% 50V X7R"
-			(at 246.38 80.01 0)
+			(at 228.6 73.66 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3038,7 +4826,7 @@
 			)
 		)
 		(property "Manufacturer" "WALSIN"
-			(at 246.38 76.2 0)
+			(at 228.6 69.85 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3047,7 +4835,7 @@
 			)
 		)
 		(property "#Value" "104p"
-			(at 247.65 73.66 0)
+			(at 229.87 67.31 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3066,6 +4854,71 @@
 			(project ""
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 251.46 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8aa16307-fc2a-48be-b91a-5eb11902c9c2")
+		(property "Reference" "#PWR011"
+			(at 251.46 61.214 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 251.46 61.214 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25204ac8-f2f9-4281-bb6c-430cddcf16fe")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3317,6 +5170,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 85.09 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1bb5895-3a22-4b38-92b1-c27c0ed0f8c3")
+		(property "Reference" "#PWR017"
+			(at 85.09 156.464 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 85.09 156.464 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "154548af-a657-4b77-b09e-ccade7812407")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 142.24 181.61 0)
 		(unit 1)
@@ -3376,6 +5294,159 @@
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X0000JTL")
+		(at 85.09 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "d6333f6d-a62c-4d7a-8d2b-6aac5295f54e")
+		(property "Reference" "R2"
+			(at 83.058 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X0000JTL"
+			(at 91.44 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 88.9 165.1 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.058 165.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "0 Ohm 5% 1/10W"
+			(at 90.17 165.1 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 87.63 165.1 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "0000"
+			(at 85.09 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1f18b5d8-c88a-4e63-8824-5fff0fdb1875")
+		)
+		(pin "1"
+			(uuid "031d49af-e3eb-400f-92c0-ffd2ee4d9ecb")
+		)
+		(instances
+			(project ""
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 176.53 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4f6bc83-ee5e-427a-9b82-1ca8e2310d32")
+		(property "Reference" "#PWR04"
+			(at 176.53 45.974 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 176.53 45.974 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "865fb8c7-1be9-4960-81d1-39c41bc8f07d")
+		)
+		(instances
+			(project ""
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3462,6 +5533,201 @@
 			(project ""
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
 					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 236.22 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0bc1756-f3d8-4ed0-8c12-7f9d8910b7f9")
+		(property "Reference" "#PWR08"
+			(at 236.22 68.58 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 70.358 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3daf3062-6292-495d-80a5-aaa094d400e5")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5cafb58-c331-4ddd-818d-f9ac6525cb49")
+		(property "Reference" "#PWR014"
+			(at 259.08 68.58 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 70.358 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0030baf3-41dc-49ab-be15-c290c1ee26f5")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8c94cfb-f5e8-46a9-8e27-189ed4215eaf")
+		(property "Reference" "#PWR015"
+			(at 176.53 146.05 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 147.828 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 146.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b2fe541-0e93-4849-958b-edaa6f5dc58b")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
