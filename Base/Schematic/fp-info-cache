@@ -1,4 +1,4 @@
-2071124204961392
+2072869805279370
 ABCO
 LPF1280T
 
@@ -6852,6 +6852,13 @@ SOT89
 0
 3
 3
+ReSine PS
+BXXS-1W
+
+
+0
+4
+4
 Resistor_SMD
 R_0201_0603Metric
 Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
