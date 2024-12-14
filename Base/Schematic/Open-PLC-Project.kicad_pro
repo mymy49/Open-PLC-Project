@@ -620,6 +620,10 @@
     [
       "ecc73c34-7097-4317-902c-c1fb9ea56dcf",
       "CAN"
+    ],
+    [
+      "d89ef6a0-3ba7-4277-9277-8f32ad685bed",
+      "RS485"
     ]
   ],
   "text_variables": {}

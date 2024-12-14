@@ -52,8 +52,8 @@
 		)
 	)
 	(sheet
-		(at 223.52 127)
-		(size 33.02 27.94)
+		(at 106.68 163.83)
+		(size 33.02 11.43)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -64,7 +64,7 @@
 		)
 		(uuid "94b67e7c-4fbc-4e60-a407-bbddd4f9dc06")
 		(property "Sheetname" "Power"
-			(at 223.52 126.2884 0)
+			(at 106.68 163.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 223.52 155.5246 0)
+			(at 106.68 175.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,8 +90,106 @@
 		)
 	)
 	(sheet
-		(at 223.52 97.79)
-		(size 33.02 17.78)
+		(at 105.41 38.1)
+		(size 33.02 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d89ef6a0-3ba7-4277-9277-8f32ad685bed")
+		(property "Sheetname" "RS485"
+			(at 105.41 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS485.kicad_sch"
+			(at 105.41 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RE" input
+			(at 105.41 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bef71e21-0ff8-4c29-8edb-5303b556a8bd")
+		)
+		(pin "D" input
+			(at 105.41 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a834c9a6-ebeb-48a9-9e09-ce51f60cde21")
+		)
+		(pin "DE" input
+			(at 105.41 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b1f9c503-d364-47a2-bcc1-ebeb5b64b4ae")
+		)
+		(pin "R" output
+			(at 105.41 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "883d29ca-0649-47ad-a110-ca79ee613543")
+		)
+		(pin "A" bidirectional
+			(at 138.43 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "030f71fe-d859-4712-9948-56df3116aa81")
+		)
+		(pin "B" bidirectional
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26d30a8b-f89f-466e-9819-aeb8b465b0aa")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 57.15)
+		(size 33.02 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -102,7 +200,7 @@
 		)
 		(uuid "ecc73c34-7097-4317-902c-c1fb9ea56dcf")
 		(property "Sheetname" "CAN"
-			(at 223.52 97.0784 0)
+			(at 105.41 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,13 +209,53 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 223.52 116.1546 0)
+			(at 105.41 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "RXD" output
+			(at 105.41 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7f7d2594-c4bc-4e66-a362-4660b6ec3a4d")
+		)
+		(pin "TXD" input
+			(at 105.41 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "af902a1c-e5a6-4438-bf0e-639b73dacaa6")
+		)
+		(pin "CANH" bidirectional
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b848bef1-7736-486a-8f8c-0694675cdf42")
+		)
+		(pin "CANL" bidirectional
+			(at 138.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78211ecc-c8a8-49e4-b5aa-0a1fcf95b729")
 		)
 		(instances
 			(project "Open-PLC-Project"
