@@ -690,6 +690,465 @@
 				)
 			)
 		)
+		(symbol "NUP2105LT1G_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.08 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "NUP2105LT1G"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SOT:SOT23"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3.81 0 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "ULTRA HIGH SPEED SWITCHING APPLICATION"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ON Semiconductor"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "#Value" "NUP2105LT1G"
+				(at 5.08 -3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DO-214AB-UNI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NUP2105LT1G_1_0_1"
+				(rectangle
+					(start -4.445 2.54)
+					(end 4.445 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.778)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 -1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 1.778) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 0.381) (xy -3.556 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.778) (xy -2.54 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.381) (xy -1.778 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.778) (xy -3.556 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.778) (xy -1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.381) (xy -1.524 0.127)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 1.778) (xy -3.556 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.381) (xy -3.302 0.381) (xy -3.175 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NUP2105LT1G_1_1_1"
+				(polyline
+					(pts
+						(xy 1.524 -1.016) (xy 3.556 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.778) (xy 3.556 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0.381) (xy 1.524 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy 2.54 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.381) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.778) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.778) (xy 3.556 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 3.556 0.127)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 1.778) (xy 1.524 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.381) (xy 1.778 0.381) (xy 1.905 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 3.81 270)
+					(length 1.27)
+					(name "A2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 3.81 270)
+					(length 1.27)
+					(name "C1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "A1C2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Power_Module:B0505S-1W_ReSine PS"
 			(pin_names
 				(offset 1.016)
@@ -850,6 +1309,148 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Resistor:WR06X0000JTL"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "WR06X0000JTL"
+				(at 0 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SMR:0603"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "0 Ohm 5% 1/10W"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "WALSIN"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "#Value" "0000"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SMR2012 SMR3216 MPM262_283_REG SMR1608 SMR5025"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WR06X0000JTL_0_0"
+				(text "06"
+					(at -3.556 0.635 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "WR06X0000JTL_0_1"
+				(rectangle
+					(start -2.794 -0.889)
+					(end 2.794 0.889)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WR06X0000JTL_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
 							)
 						)
 					)
@@ -1567,6 +2168,18 @@
 		(uuid "b069f726-b3a4-44d7-a62d-5b705d87c9ff")
 	)
 	(junction
+		(at 177.8 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb2c28fa-4b20-456f-b548-eca7ea226759")
+	)
+	(junction
+		(at 182.88 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e74fedb6-ec26-4491-85ac-d571e5005492")
+	)
+	(junction
 		(at 119.38 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1700,6 +2313,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 113.03) (xy 175.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f93d175-d0d1-4f38-a845-60188f8030b5")
+	)
+	(wire
+		(pts
 			(xy 127 67.31) (xy 137.16 67.31)
 		)
 		(stroke
@@ -1707,6 +2330,16 @@
 			(type default)
 		)
 		(uuid "5fec34bf-db4f-408b-ab45-02f1a3bc9e21")
+	)
+	(wire
+		(pts
+			(xy 177.8 113.03) (xy 177.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616f4517-a686-4755-b718-6d4c1d2a1318")
 	)
 	(wire
 		(pts
@@ -1740,13 +2373,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 115.57) (xy 162.56 115.57)
+			(xy 167.64 115.57) (xy 162.56 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6af2a0a7-2e0f-4140-aa1a-b04d9a49a527")
+	)
+	(wire
+		(pts
+			(xy 182.88 115.57) (xy 187.96 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705d7489-d55c-4817-afa4-0fcd5cd2e79d")
 	)
 	(wire
 		(pts
@@ -1787,6 +2430,16 @@
 			(type default)
 		)
 		(uuid "7eae4aaa-d51b-4660-9f71-918acf7134d7")
+	)
+	(wire
+		(pts
+			(xy 180.34 127) (xy 180.34 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f667934-2701-4f47-bddd-8f16e4a98037")
 	)
 	(wire
 		(pts
@@ -1840,6 +2493,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 113.03) (xy 187.96 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea4a47e-36c7-408a-9c8d-052d83dd0f1d")
+	)
+	(wire
+		(pts
 			(xy 127 72.39) (xy 127 74.93)
 		)
 		(stroke
@@ -1860,6 +2523,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 115.57) (xy 182.88 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ae89dc-dd20-423c-b7bc-be0800b17440")
+	)
+	(wire
+		(pts
 			(xy 137.16 107.95) (xy 134.62 107.95)
 		)
 		(stroke
@@ -1867,6 +2540,16 @@
 			(type default)
 		)
 		(uuid "9e3ac654-86dd-49d8-8a4b-a15dcf449716")
+	)
+	(wire
+		(pts
+			(xy 182.88 115.57) (xy 175.26 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87c0e30-99b6-436a-80e3-4821e97502b8")
 	)
 	(wire
 		(pts
@@ -1940,7 +2623,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 113.03) (xy 162.56 113.03)
+			(xy 167.64 113.03) (xy 162.56 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +2683,7 @@
 	)
 	(hierarchical_label "CANH"
 		(shape bidirectional)
-		(at 171.45 113.03 0)
+		(at 187.96 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2012,7 +2695,7 @@
 	)
 	(hierarchical_label "CANL"
 		(shape bidirectional)
-		(at 171.45 115.57 0)
+		(at 187.96 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2292,6 +2975,159 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_ISO_1")
+		(lib_id "power:GND_ISO")
+		(at 180.34 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ae0250b-f598-4616-ad03-d8c6481861ff")
+		(property "Reference" "#GND_CAN05"
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_CAN"
+			(at 180.34 130.048 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c16e59bd-bf75-47b7-8c8a-0dc9c02f79d2")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
+					(reference "#GND_CAN05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X0000JTL")
+		(at 171.45 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1748716c-396b-43d2-b37e-4bce3a4b5b7f")
+		(property "Reference" "R12"
+			(at 171.45 110.998 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X0000JTL"
+			(at 171.45 119.38 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 110.998 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "0 Ohm 5% 1/10W"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 171.45 115.57 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "0000"
+			(at 171.45 113.03 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0751f3f3-475e-444b-81ca-eb9d6fcbf4cb")
+		)
+		(pin "2"
+			(uuid "71a8e7be-8cf6-4f42-8a4f-51f8d7d56196")
+		)
+		(instances
+			(project ""
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capacitor_MLCC:0805B475K160")
 		(at 180.34 71.12 0)
 		(unit 1)
@@ -2301,7 +3137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2940e9fd-3963-4d84-8659-d1386539befa")
-		(property "Reference" "C17"
+		(property "Reference" "C?"
 			(at 181.61 69.85 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2372,6 +3208,14 @@
 		(pin "2"
 			(uuid "a7a069db-2a81-4cb8-a382-ea1f3d371b9c")
 		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Capacitor_MLCC:1206B225K500")
@@ -2384,7 +3228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b5b1628-c0e7-4cb3-8c40-4eacb79546fb")
-		(property "Reference" "C7"
+		(property "Reference" "C?"
 			(at 118.11 69.85 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2455,6 +3299,14 @@
 		(pin "1"
 			(uuid "cb2ad268-c491-4068-a868-d9c4e7aa8b9f")
 		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Power_Module:B0505S-1W_ReSine PS")
@@ -2466,7 +3318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f329e6e-376e-41d1-b904-f750e88611d0")
-		(property "Reference" "U4"
+		(property "Reference" "U?"
 			(at 143.51 63.5 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2539,6 +3391,14 @@
 		)
 		(pin "4"
 			(uuid "8a726273-9c09-44c8-9870-bf3742033d91")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2616,7 +3476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49bde6c2-4ce9-4c67-a719-d1960e52962a")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR?"
 			(at 111.76 62.484 0)
 			(effects
 				(font
@@ -2661,6 +3521,14 @@
 		)
 		(pin "1"
 			(uuid "90597437-f0ce-452d-92f3-98362bc23b2a")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2894,7 +3762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cf61f92-ab33-43bc-9b37-875b788cbb37")
-		(property "Reference" "C16"
+		(property "Reference" "C?"
 			(at 125.73 69.85 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2964,6 +3832,14 @@
 		)
 		(pin "1"
 			(uuid "3b4a0f52-ccae-4c19-af34-4804cb5c98b4")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3171,7 +4047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b40cb93a-d644-41fa-8ef9-617468885de1")
-		(property "Reference" "U3"
+		(property "Reference" "U?"
 			(at 144.78 104.14 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3275,6 +4151,14 @@
 		(pin "12"
 			(uuid "789f697b-51cc-4908-b735-5bbe1f673a19")
 		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3286,7 +4170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6b0e431-27ac-4366-885c-e6b3a39d33ed")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR?"
 			(at 134.62 128.27 0)
 			(effects
 				(font
@@ -3331,6 +4215,105 @@
 		)
 		(pin "1"
 			(uuid "89f46398-6cf5-4229-b3e2-e10eb3d9e274")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NUP2105LT1G_1")
+		(lib_id "Diode_Protection:NUP2105LT1G")
+		(at 180.34 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7131983-3d1c-4d28-a0fb-8e5a67369782")
+		(property "Reference" "D1"
+			(at 175.26 119.38 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "NUP2105LT1G"
+			(at 180.34 130.81 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SOT:SOT23"
+			(at 180.34 132.08 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 123.19 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "ULTRA HIGH SPEED SWITCHING APPLICATION"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ON Semiconductor"
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "NUP2105LT1G"
+			(at 185.42 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d470dc20-973c-46c8-b817-475730c605a0")
+		)
+		(pin "1"
+			(uuid "3f337a6b-6d20-4c4e-ab4d-7eea6575abdc")
+		)
+		(pin "2"
+			(uuid "598a2249-e1fb-4752-95a2-9f60f7d1d709")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3602,7 +4585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0174e77-0c54-4793-9ecb-3ba57e85a0fb")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR?"
 			(at 134.62 100.584 0)
 			(effects
 				(font
@@ -3647,6 +4630,102 @@
 		)
 		(pin "1"
 			(uuid "feca7809-54da-4fec-a09d-a7587ad50aee")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X0000JTL")
+		(at 171.45 115.57 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e60878bb-0fd2-45ea-b746-49ef23295be8")
+		(property "Reference" "R13"
+			(at 171.45 117.602 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X0000JTL"
+			(at 171.45 109.22 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 117.602 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "0 Ohm 5% 1/10W"
+			(at 171.45 110.49 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 171.45 113.03 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "0000"
+			(at 171.45 115.57 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "503b82c1-f515-4889-95b6-5ce6b3b67974")
+		)
+		(pin "2"
+			(uuid "5aefe9a2-3216-44d2-be92-414de6591ac5")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
