@@ -90,6 +90,164 @@
 		)
 	)
 	(sheet
+		(at 105.41 73.66)
+		(size 33.02 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "caced042-0264-4901-a3a6-78acc82068a3")
+		(property "Sheetname" "DOUT"
+			(at 105.41 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DOUT.kicad_sch"
+			(at 105.41 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT2" output
+			(at 138.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a03cfe57-aa0f-404f-bf0a-87cfd52edae5")
+		)
+		(pin "OUT0" output
+			(at 138.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "acea8a69-1ccc-4f12-bbf5-dc7779dd8c96")
+		)
+		(pin "OUT1" output
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "89b81fde-ab91-42b3-b8b0-11eca9995458")
+		)
+		(pin "OUT3" output
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "11c57ba0-90cf-4f55-8b6e-b59dfe6d759f")
+		)
+		(pin "IS" output
+			(at 105.41 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e3ec56bd-f0d5-4ab1-832d-8d07cb32e680")
+		)
+		(pin "IN0" input
+			(at 105.41 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be43980c-3da3-4b5e-bb5f-1b894212ea5d")
+		)
+		(pin "IN2" input
+			(at 105.41 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "830a0157-6bd3-4b01-9162-d6a765fc8cb3")
+		)
+		(pin "IN1" input
+			(at 105.41 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "098199c9-b488-4aa5-bf39-684bd08d337f")
+		)
+		(pin "IN3" input
+			(at 105.41 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fba03b95-9852-4a11-884e-e173762af897")
+		)
+		(pin "DEN" input
+			(at 105.41 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3fc226c9-be1d-4fef-bd68-75d63810e524")
+		)
+		(pin "DSEL1" input
+			(at 105.41 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "71758543-d91e-4ae9-bea0-389c001a08f9")
+		)
+		(pin "DSEL0" input
+			(at 105.41 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b2b12e6c-b1c5-4bad-b9ed-adb0fe02815a")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 105.41 38.1)
 		(size 33.02 12.7)
 		(fields_autoplaced yes)

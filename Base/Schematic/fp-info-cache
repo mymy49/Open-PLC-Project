@@ -1,4 +1,4 @@
-2072869805279370
+2078097050811644
 ABCO
 LPF1280T
 
@@ -251,6 +251,13 @@ CRSTAL_SMD_3225-4Pin
 0
 4
 4
+CRYSTAL
+SMD_3215_2Pin
+
+
+0
+2
+2
 CT
 CTT-1102S
 
@@ -3704,6 +3711,13 @@ IR_Receiver_ES.2
 2
 Fanlight
 PIXMOB_AAA
+
+
+0
+2
+2
+G-Switch
+GT-CR1632-1Au
 
 
 0
@@ -8350,6 +8364,13 @@ YST-1103S
 0
 4
 4
+infineon
+PG-DSO-14-48-EP
+
+
+0
+15
+15
 infineon
 PG-TDSON-8-33
 Power MOSFET package, TDSON-8-1, 5.15x5.9mm (https://www.infineon.com/cms/en/product/packages/PG-TDSON/PG-TDSON-8-1/)

@@ -624,6 +624,10 @@
     [
       "d89ef6a0-3ba7-4277-9277-8f32ad685bed",
       "RS485"
+    ],
+    [
+      "caced042-0264-4901-a3a6-78acc82068a3",
+      "DOUT"
     ]
   ],
   "text_variables": {}
