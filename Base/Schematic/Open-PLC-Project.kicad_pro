@@ -627,7 +627,11 @@
     ],
     [
       "caced042-0264-4901-a3a6-78acc82068a3",
-      "DOUT"
+      "DOUT1"
+    ],
+    [
+      "35842953-03b1-4d1a-a0b9-e32cdca1a04c",
+      "DOUT2"
     ]
   ],
   "text_variables": {}

@@ -1875,7 +1875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "098cb203-62da-4d8e-8392-7c0fd962d709")
-		(property "Reference" "R23"
+		(property "Reference" "R32"
 			(at 129.54 104.648 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1938,15 +1938,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb0108f3-f222-4b78-a6e9-dc09ea6a64af")
+			(uuid "03db3cad-3551-47e0-acf6-9776430057ec")
 		)
 		(pin "2"
-			(uuid "b1cf1215-3747-47b0-9973-a22f800358c8")
+			(uuid "4d7fb9e2-ce6c-42e7-9804-468da32044ee")
 		)
 		(instances
-			(project ""
-				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
-					(reference "R23")
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2024,13 +2024,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "79519c14-ad74-479a-8cce-c7d334b5bb03")
+			(uuid "81c2ca2a-dccd-40d7-88dc-70d00de04746")
 		)
 		(pin "1"
-			(uuid "735e7127-7d56-4b47-8e0a-46794c038a5b")
+			(uuid "ce8dc3b4-cdcc-430a-809a-27b98b876bf1")
 		)
 		(instances
 			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "R31")
+					(unit 1)
+				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
 					(reference "R22")
 					(unit 1)
@@ -2092,10 +2096,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "02cb2f0e-9e9e-4396-ba66-e71a33da6e25")
+			(uuid "305584b2-a973-49b7-a6ba-b2bd5f6e4881")
 		)
 		(instances
 			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "#PWR034")
+					(unit 1)
+				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
 					(reference "#PWR013")
 					(unit 1)
@@ -2175,13 +2183,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "ae486434-0d35-4ebd-bf2b-c4d8a5af1d10")
+			(uuid "7c8c9369-438f-4ef9-8d6d-a837f05391e3")
 		)
 		(pin "1"
-			(uuid "641f97be-71e6-42eb-a2a6-0786f4f50fba")
+			(uuid "63a17aed-11be-4349-8f15-6b6d0883712b")
 		)
 		(instances
 			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "R29")
+					(unit 1)
+				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
 					(reference "R20")
 					(unit 1)
@@ -2265,13 +2277,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "88ca0137-721a-45bc-9bdf-3112f0ad3bd6")
+			(uuid "73f5a14b-8e51-4070-a796-39922bcc1629")
 		)
 		(pin "1"
-			(uuid "ee96640b-de12-45f3-95f3-d6fcf7c82205")
+			(uuid "51d63689-6236-440c-9987-7a75060edfb9")
 		)
 		(instances
 			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "C39")
+					(unit 1)
+				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
 					(reference "C7")
 					(unit 1)
@@ -2351,13 +2367,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "5dd1564b-b223-4229-bc65-7ce4683eff80")
+			(uuid "35f08e1d-0338-4cca-b007-9ea994deeac1")
 		)
 		(pin "1"
-			(uuid "24abe303-e483-42ef-b841-58e410e446a5")
+			(uuid "c5322f27-0035-4a53-af38-ec4de3dd3266")
 		)
 		(instances
 			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "R27")
+					(unit 1)
+				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
 					(reference "R18")
 					(unit 1)
@@ -2375,7 +2395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4103564c-3660-4593-a8d7-48c291a467e1")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR029"
 			(at 123.19 119.38 0)
 			(effects
 				(font
@@ -2419,12 +2439,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "de8f89cd-5e5c-4fc2-a3a5-3e3c61136e71")
+			(uuid "82f152ca-22fa-487e-bafd-1cc5de36d697")
 		)
 		(instances
-			(project ""
-				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
-					(reference "#PWR016")
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2502,13 +2522,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "ae2b954e-ea3d-477c-ab88-449efebecb79")
+			(uuid "3d4c7b48-76e6-46ac-ac1f-d6f29c45ae71")
 		)
 		(pin "1"
-			(uuid "bb415901-3600-44ff-a9bc-01d31e4d922c")
+			(uuid "ffe0353f-bd55-4ae0-93a8-a9ca4ddbbfa2")
 		)
 		(instances
 			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "R30")
+					(unit 1)
+				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
 					(reference "R21")
 					(unit 1)
@@ -2570,10 +2594,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e269f0c-661f-422c-9e11-954ab8bb43ef")
+			(uuid "45416b74-5bbe-4b9d-bfbb-33d9d77af318")
 		)
 		(instances
 			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "#PWR066")
+					(unit 1)
+				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
 					(reference "#PWR028")
 					(unit 1)
@@ -2635,10 +2663,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef72a285-ac9d-4955-97bc-929d90178d66")
+			(uuid "013f3ebf-94be-48f3-a35a-e04be8f20e96")
 		)
 		(instances
 			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "#PWR033")
+					(unit 1)
+				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
 					(reference "#PWR012")
 					(unit 1)
@@ -2655,7 +2687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "765ac861-b6bc-4125-9764-d1d742826c83")
-		(property "Reference" "R16"
+		(property "Reference" "R25"
 			(at 134.62 82.55 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2718,15 +2750,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3e912d9a-aeea-401e-a8de-f6e11a0bc87a")
+			(uuid "f3f5ad58-f2dd-487f-b3f8-59a617d7e3ea")
 		)
 		(pin "1"
-			(uuid "526a3c80-d05b-410f-8668-cf7d7bb2baed")
+			(uuid "7034a8d8-52b0-46f4-93f8-8b0edcdd0492")
 		)
 		(instances
-			(project ""
-				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
-					(reference "R16")
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -2786,10 +2818,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3dcb219-0a01-4a83-804b-ca3ecc9a1ad0")
+			(uuid "58f93e41-f60e-4afd-bbb0-e08dc5931348")
 		)
 		(instances
 			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "#PWR032")
+					(unit 1)
+				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
 					(reference "#PWR014")
 					(unit 1)
@@ -2869,13 +2905,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "a6793a40-4791-4dca-981c-da4c77e4627c")
+			(uuid "3b4c0fe1-aa59-4ac8-93e5-7b9eae5e7fec")
 		)
 		(pin "1"
-			(uuid "598b5dd4-c891-455e-99f0-2daef1b26e4d")
+			(uuid "cfa1e8ae-7651-4b2c-b0ee-083dba78cfbe")
 		)
 		(instances
 			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "R28")
+					(unit 1)
+				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
 					(reference "R19")
 					(unit 1)
@@ -2893,7 +2933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5b1058a-df99-43ea-be52-cdaf539007ba")
-		(property "Reference" "R24"
+		(property "Reference" "R33"
 			(at 133.858 113.03 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2956,15 +2996,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "bb94af51-c70b-4007-913b-4b90d75a2806")
+			(uuid "d91d3f21-6850-4ef4-9fac-3228c5deafa3")
 		)
 		(pin "1"
-			(uuid "699a4a89-7c3a-42cc-9a6f-432bb383060a")
+			(uuid "f62ad8d3-4ab0-4a75-a986-23da19c26c42")
 		)
 		(instances
-			(project ""
-				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
-					(reference "R24")
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3042,13 +3082,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "39fd6093-0d92-4abb-9b9a-21475f501f2f")
+			(uuid "33089990-a644-4a94-ae30-bd3590d77365")
 		)
 		(pin "1"
-			(uuid "84e640ab-098e-42ef-8f2f-d8b0d742eca7")
+			(uuid "7d819e7e-83c2-4311-b324-70df08026558")
 		)
 		(instances
 			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "R26")
+					(unit 1)
+				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
 					(reference "R17")
 					(unit 1)
@@ -3066,7 +3110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de1153d6-c0cb-44b5-ad6c-8fa50bfe0552")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 146.05 80.01 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3129,51 +3173,51 @@
 			)
 		)
 		(pin "5"
-			(uuid "259ddaa8-0f7f-4c3f-aab2-f1f81b643ca3")
+			(uuid "1fb8230a-b1b0-4f7e-b7e4-7a00adb25105")
 		)
 		(pin "6"
-			(uuid "02520748-6dbc-4c70-b8bb-96582b25e9e5")
+			(uuid "68ecc70b-dc38-4d8c-b769-29386821049b")
 		)
 		(pin "2"
-			(uuid "c53ff989-d5b0-42c1-8299-18f0eb47917f")
+			(uuid "2fb1ea46-63b1-4c37-9d9e-ad3e87f440f8")
 		)
 		(pin "EP"
-			(uuid "ba4ae2e3-4fd9-4f23-b29c-3c51ae329d3f")
+			(uuid "1668d997-f3e4-431e-b6a7-cbccc8cf433d")
 		)
 		(pin "7"
-			(uuid "c7dff399-77cb-428b-a860-8e08420c38bc")
+			(uuid "a209b934-6568-4b6a-8834-dd51957dec5c")
 		)
 		(pin "12"
-			(uuid "dccf0458-539a-4ca2-ba7c-f344b0705d4d")
+			(uuid "4f655885-a294-440c-b3fd-ab93472e7fe3")
 		)
 		(pin "10"
-			(uuid "5ec28ba5-4166-4dac-8cfa-3310447f12e4")
+			(uuid "10073fb0-6009-4e45-8b73-8bf080fab96b")
 		)
 		(pin "14"
-			(uuid "091069ff-c92a-43a7-bdc5-909b328166f4")
+			(uuid "3f4d0934-fd5c-4dc2-a3b7-455383f5da9c")
 		)
 		(pin "9"
-			(uuid "da110c33-77a6-4494-aa0e-8b15bd557da8")
+			(uuid "4fa00794-f41c-4c84-aeb3-9247261b2630")
 		)
 		(pin "13"
-			(uuid "02864a1c-981d-4232-b0cc-f9fc50a7a2aa")
+			(uuid "6a8e8fd3-0972-4b69-b199-f8277b54a28d")
 		)
 		(pin "4"
-			(uuid "11ee195d-d30b-4d12-8210-7faf165dfe00")
+			(uuid "627f18bf-fbff-45cc-a75f-275f314556a2")
 		)
 		(pin "8"
-			(uuid "c9cee315-a5d7-42dd-a137-a6ca357257ce")
+			(uuid "5844bc3b-2f72-40ec-9aba-b3980c5d17bd")
 		)
 		(pin "1"
-			(uuid "3346fc51-33bf-4a67-b50e-e49a0867fc5a")
+			(uuid "a97ae344-2101-443c-b663-3e4adacefc49")
 		)
 		(pin "11"
-			(uuid "6506c758-8ba1-4ebe-88d2-8ae9f954422d")
+			(uuid "ad1b3afb-3f59-4b9a-9033-9c75aedd3827")
 		)
 		(instances
-			(project ""
-				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
-					(reference "U3")
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3190,7 +3234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f364daec-faa7-4fc5-b522-bf580591d5b6")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 124.46 111.76 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3265,15 +3309,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "631d0a75-0ca5-4c7d-a7b2-378056739a86")
+			(uuid "7b72ae49-df90-41b6-937e-2a260a3a3f37")
 		)
 		(pin "1"
-			(uuid "d062405d-fcc4-40a3-8c82-b478dfb96a8c")
+			(uuid "9ceff8c0-6cde-43ee-8854-1be6732a6dfe")
 		)
 		(instances
-			(project ""
-				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
-					(reference "C16")
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3334,10 +3378,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "648bd92a-3dd2-42f0-82bc-29590f6ee4d3")
+			(uuid "c38b541d-1ac1-45cc-a59c-5b8cad95096b")
 		)
 		(instances
 			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
+					(reference "#PWR067")
+					(unit 1)
+				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
 					(reference "#PWR027")
 					(unit 1)
