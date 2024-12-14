@@ -1,0 +1,6824 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9c8a5eee-0874-4af2-9902-0a13e28d76dc")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Capacitor_MLCC:0603B104K500"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.27 1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0603B104K500"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SMC:0603"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100nF ±10% 50V X7R"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "WALSIN"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "#Value" "104p"
+				(at 1.27 -1.27 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_fp_filters" "SMC1608 SMC2012 SMC3216 SMC3225 CAP_CK_11 CAP_CK_05 SMC4532"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603B104K500_0_0"
+				(text "06"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "0603B104K500_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -0.508) (xy 1.016 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0.508) (xy 1.016 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0.635) (xy 0 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603B104K500_1_1"
+				(pin passive line
+					(at 0 -1.27 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 1.27 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode_Protection:KDS226"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.08 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "KDS226"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SOT:SOT23"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3.81 0 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "ULTRA HIGH SPEED SWITCHING APPLICATION"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "KEC"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DO-214AB-UNI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KDS226_0_1"
+				(rectangle
+					(start -4.445 2.54)
+					(end 4.445 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.651)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 0.762) (xy -2.54 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.762) (xy -3.556 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.762) (xy -1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.762) (xy -1.524 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy -3.556 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy -1.524 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.762) (xy 3.556 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.762) (xy 1.524 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.762) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.762) (xy 3.556 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.762) (xy 3.556 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy -2.54 2.667) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.762) (xy 2.54 -1.651) (xy 0 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.762) (xy -2.54 -1.651) (xy 0 -1.651) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KDS226_1_1"
+				(polyline
+					(pts
+						(xy 1.524 -0.762) (xy 2.54 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 3.81 270)
+					(length 1.27)
+					(name "A2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 3.81 270)
+					(length 1.27)
+					(name "C1"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "A1C2"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LM239DR2G_1"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.27 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM239DR2G"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SO:SOIC-14"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "Quad Differential Comparators"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "onsemi"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "#Value" "LM239"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(symbol "LM239DR2G_1_0_0"
+				(text "+"
+					(at 0.635 6.985 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(text "-"
+					(at 0.635 -6.985 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(symbol "LM239DR2G_1_0_1"
+				(polyline
+					(pts
+						(xy -4.191 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.191 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.683 3.048) (xy -3.683 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM239DR2G_1_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM239DR2G_1_2_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM239DR2G_1_3_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM239DR2G_1_4_1"
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Resistor:WR06X1002FTL"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "WR06X1002FTL"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SMR:0603"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "10 kOhm 1% 1/10W"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "WALSIN"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "#Value" "1002"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SMR2012 SMR3216 MPM262_283_REG SMR1608 SMR5025"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WR06X1002FTL_0_0"
+				(text "06"
+					(at -3.556 0.635 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "WR06X1002FTL_0_1"
+				(rectangle
+					(start -2.794 -0.889)
+					(end 2.794 0.889)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WR06X1002FTL_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Resistor:WR06X4700FTL"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "WR06X4700FTL"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SMR:0603"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "470 Ohm ±1% 1/10W"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "WALSIN"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "#Value" "4700"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SMR2012 SMR3216 MPM262_283_REG SMR1608 SMR5025"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WR06X4700FTL_0_0"
+				(text "06"
+					(at -3.556 0.635 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "WR06X4700FTL_0_1"
+				(rectangle
+					(start -2.794 -0.889)
+					(end 2.794 0.889)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WR06X4700FTL_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Resistor:WR06X4701FTL"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "WR06X4701FTL"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SMR:0603"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "4.7 kOhm ±1% 1/10W"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "WALSIN"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "#Value" "4701"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SMR2012 SMR3216 MPM262_283_REG SMR1608 SMR5025"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WR06X4701FTL_0_0"
+				(text "06"
+					(at -3.556 0.635 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(symbol "WR06X4701FTL_0_1"
+				(rectangle
+					(start -2.794 -0.889)
+					(end 2.794 0.889)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WR06X4701FTL_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 2.286 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3.3V"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.762) (xy 0 0.762) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:PGND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PGND"
+				(at 0 -1.778 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PGND_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PGND_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "PGND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:V_SUPPLY"
+			(power)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "V_SUPPLY"
+				(at 0 2.286 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "V_SUPPLY_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "V_SUPPLY"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(symbol "V_SUPPLY_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.762) (xy 0 0.762) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 135.89 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01d84c85-623f-467b-8696-a71827a131df")
+	)
+	(junction
+		(at 134.62 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13e40e52-dc23-4686-ab3b-0cee0d8f0b28")
+	)
+	(junction
+		(at 167.64 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c159981-37df-40fb-90e0-66c24846be86")
+	)
+	(junction
+		(at 134.62 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e5cab87-5a0e-4abc-a911-327c3f641c80")
+	)
+	(junction
+		(at 168.91 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a14b65fe-34e2-48ca-a68b-6eede93c7264")
+	)
+	(junction
+		(at 134.62 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca4fc59e-abd1-41c7-bfc4-9d4fdade66d3")
+	)
+	(junction
+		(at 66.04 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdc4b9b1-7662-4f12-aaca-81f3b05d6055")
+	)
+	(junction
+		(at 167.64 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8698253-e878-4e5f-9b1b-a4dbcaa67ccd")
+	)
+	(junction
+		(at 71.12 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f53b81f6-9a9c-434c-a445-9ca4b8c048cd")
+	)
+	(junction
+		(at 167.64 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9ca7a5b-41af-4580-9166-4b787c2c9558")
+	)
+	(wire
+		(pts
+			(xy 66.04 62.23) (xy 66.04 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015487fd-9da0-4401-991d-9c900e18d43b")
+	)
+	(wire
+		(pts
+			(xy 144.78 115.57) (xy 149.86 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a4e81a-ea5e-4ae7-98ea-5ea410c06694")
+	)
+	(wire
+		(pts
+			(xy 134.62 67.31) (xy 149.86 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1618b83f-2349-46a9-8974-4b8511a0d5bf")
+	)
+	(wire
+		(pts
+			(xy 167.64 118.11) (xy 170.18 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186b71a5-6ac8-465f-baf2-4eaf4c18047e")
+	)
+	(wire
+		(pts
+			(xy 167.64 64.77) (xy 170.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18933041-fb98-474f-85bf-598f84de8ff8")
+	)
+	(wire
+		(pts
+			(xy 71.12 69.85) (xy 71.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e7863b-3c73-446e-aa17-539851c4f330")
+	)
+	(wire
+		(pts
+			(xy 177.8 91.44) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a37f94e-6ef8-4402-ae2f-83ce62519db3")
+	)
+	(wire
+		(pts
+			(xy 132.08 104.14) (xy 132.08 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bb298bd-3c28-45df-9557-4b769a16b580")
+	)
+	(wire
+		(pts
+			(xy 134.62 113.03) (xy 134.62 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc27c91-3737-41af-9d02-e034bdad9131")
+	)
+	(wire
+		(pts
+			(xy 132.08 77.47) (xy 132.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd5b172-a555-45e8-ae0a-8f9ce0988da2")
+	)
+	(wire
+		(pts
+			(xy 135.89 142.24) (xy 138.43 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242459c0-5b7e-4d35-975d-54bd1c642417")
+	)
+	(wire
+		(pts
+			(xy 157.48 45.72) (xy 157.48 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f5a018-5c7d-47a0-b0e6-7d734219daaa")
+	)
+	(wire
+		(pts
+			(xy 66.04 49.53) (xy 66.04 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a077d45-a3ee-47c4-8ce5-3c6dbf40c553")
+	)
+	(wire
+		(pts
+			(xy 166.37 144.78) (xy 168.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a0cffe0-1088-4269-ba97-8b723e5dbaf5")
+	)
+	(wire
+		(pts
+			(xy 167.64 53.34) (xy 167.64 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309ecc7b-a7dd-40b7-84f4-5fad7a22efcb")
+	)
+	(wire
+		(pts
+			(xy 167.64 115.57) (xy 167.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d9a941-3fb7-47ab-bdef-202d0b24ebd6")
+	)
+	(wire
+		(pts
+			(xy 165.1 64.77) (xy 167.64 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da8fd2c-e2ec-42f5-ae3a-5e5a0262ee00")
+	)
+	(wire
+		(pts
+			(xy 146.05 142.24) (xy 151.13 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fbf629-9fa7-4422-a8b7-ff62acab4c01")
+	)
+	(wire
+		(pts
+			(xy 132.08 88.9) (xy 134.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d2f823-c197-41eb-a061-1f64d50e86be")
+	)
+	(wire
+		(pts
+			(xy 120.65 88.9) (xy 124.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a39aa1d-25fd-4814-a437-5c8c4193eea4")
+	)
+	(wire
+		(pts
+			(xy 120.65 62.23) (xy 124.46 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a71c2a0-8b6e-48c3-be46-80f7889d794f")
+	)
+	(wire
+		(pts
+			(xy 71.12 62.23) (xy 78.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aefc127-0bd9-49da-9dfe-70ad7714b6eb")
+	)
+	(wire
+		(pts
+			(xy 177.8 118.11) (xy 180.34 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636fcbe3-0019-4c05-af7e-953a64e38884")
+	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 170.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648eb8a5-098a-49ba-b22e-6ab0f5c1c729")
+	)
+	(wire
+		(pts
+			(xy 135.89 147.32) (xy 151.13 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65eeb97f-87cc-4609-8489-2c542ba45498")
+	)
+	(wire
+		(pts
+			(xy 168.91 142.24) (xy 168.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf3cf42-4253-429a-aeb4-4dc82cbb8a1c")
+	)
+	(wire
+		(pts
+			(xy 167.64 106.68) (xy 167.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd7f5b4-4c8d-418f-a038-631b30b522d6")
+	)
+	(wire
+		(pts
+			(xy 137.16 104.14) (xy 137.16 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757d913d-01db-49a9-bf67-03797f22aa62")
+	)
+	(wire
+		(pts
+			(xy 133.35 142.24) (xy 135.89 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78217076-e894-414a-9be2-e99d7eda4d3d")
+	)
+	(wire
+		(pts
+			(xy 137.16 77.47) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f07eb9f-3cd5-4fe6-b24a-b902765e4efd")
+	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c76b67-0afc-4cce-b602-3eeeb90bd82f")
+	)
+	(wire
+		(pts
+			(xy 165.1 118.11) (xy 167.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875b806f-7d9a-4b81-ab4d-eb5bd0c077ce")
+	)
+	(wire
+		(pts
+			(xy 134.62 62.23) (xy 137.16 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a1750d-74b4-4b48-b28b-f231dce18329")
+	)
+	(wire
+		(pts
+			(xy 157.48 41.91) (xy 157.48 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e28ea87-0ff8-40fa-ba7d-15f8a660c7e6")
+	)
+	(wire
+		(pts
+			(xy 120.65 115.57) (xy 124.46 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f621c19-2fc2-41f3-9b81-fa1b012490db")
+	)
+	(wire
+		(pts
+			(xy 179.07 144.78) (xy 181.61 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97488a82-9d03-43de-a798-6b52aff8b5d6")
+	)
+	(wire
+		(pts
+			(xy 177.8 64.77) (xy 180.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a325950-28aa-4bc1-a3f4-e38551d96e4e")
+	)
+	(wire
+		(pts
+			(xy 121.92 142.24) (xy 125.73 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd560b1-faf8-4c5f-b966-bde83ed75f19")
+	)
+	(wire
+		(pts
+			(xy 134.62 93.98) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7dbbea-03dd-4655-a8b9-5ee8ea175a9b")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2632271-89a8-48fb-9fdc-0bfb8a4100f4")
+	)
+	(wire
+		(pts
+			(xy 134.62 120.65) (xy 149.86 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7d9c13-2bf9-4beb-a9db-28f213f4da71")
+	)
+	(wire
+		(pts
+			(xy 168.91 144.78) (xy 171.45 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2429981-38e8-4052-8ae6-a0d742e44d13")
+	)
+	(wire
+		(pts
+			(xy 167.64 80.01) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43c911a-13d8-464c-8a45-b73474902b03")
+	)
+	(wire
+		(pts
+			(xy 134.62 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9210b2c-8e0b-419d-94f6-49f9e5bdf6a9")
+	)
+	(wire
+		(pts
+			(xy 167.64 62.23) (xy 167.64 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd793121-a8a3-4425-9882-12b4e74463f2")
+	)
+	(wire
+		(pts
+			(xy 144.78 62.23) (xy 149.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30340b3-41dc-44fb-a49c-27f342141145")
+	)
+	(wire
+		(pts
+			(xy 132.08 115.57) (xy 134.62 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c847b662-3eaa-4075-9121-fed194db01d8")
+	)
+	(wire
+		(pts
+			(xy 165.1 91.44) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac99adf-5e21-4859-90a5-3178fdde7b71")
+	)
+	(wire
+		(pts
+			(xy 66.04 62.23) (xy 71.12 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d69f8d6c-4c1d-40f7-84f8-a3362d52c62d")
+	)
+	(wire
+		(pts
+			(xy 133.35 130.81) (xy 133.35 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81254d5-8e37-4ccb-9299-eff85929932c")
+	)
+	(wire
+		(pts
+			(xy 168.91 133.35) (xy 168.91 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8728f12-bce3-4202-b4cd-cf5a86a02634")
+	)
+	(wire
+		(pts
+			(xy 66.04 72.39) (xy 66.04 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95c50ae-ec69-4139-9cb2-8b91a600aad3")
+	)
+	(wire
+		(pts
+			(xy 132.08 62.23) (xy 134.62 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5cff67-5f02-4aae-9a21-129cb8f342c6")
+	)
+	(wire
+		(pts
+			(xy 138.43 130.81) (xy 138.43 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de125f05-7135-4f62-9c36-f977aba9f0f2")
+	)
+	(wire
+		(pts
+			(xy 132.08 50.8) (xy 132.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df298e28-c2cd-420e-adca-e67c9d88e581")
+	)
+	(wire
+		(pts
+			(xy 71.12 62.23) (xy 71.12 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e734eca5-4605-44c1-b172-6b3d56c10ba1")
+	)
+	(wire
+		(pts
+			(xy 134.62 115.57) (xy 137.16 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea932de3-58ef-4909-a1e1-40c1e58ed493")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 137.16 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaaf9ce2-7ef5-426f-ae1f-bbda1dc70f58")
+	)
+	(wire
+		(pts
+			(xy 66.04 59.69) (xy 66.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edea4f5a-60db-439c-9189-a79f92108360")
+	)
+	(wire
+		(pts
+			(xy 134.62 86.36) (xy 134.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef63c23f-2677-4c3f-bcca-0d24ada4d620")
+	)
+	(wire
+		(pts
+			(xy 134.62 59.69) (xy 134.62 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e52f01-0623-4d19-8d9c-bde0abf28d0a")
+	)
+	(wire
+		(pts
+			(xy 135.89 139.7) (xy 135.89 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb97d6c3-5d7b-4b28-85f6-b50ab81afd84")
+	)
+	(label "VREF"
+		(at 135.89 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "411c8d97-a372-4541-8209-8763b8e85473")
+	)
+	(label "VREF"
+		(at 78.74 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4fc0b78d-83bc-4aa7-83fc-c47758292cdf")
+	)
+	(label "VREF"
+		(at 134.62 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "638229bc-3383-4902-9834-3b6c226d2ab9")
+	)
+	(label "VREF"
+		(at 134.62 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f22fedb7-2b5a-4add-a714-9d529b8f6090")
+	)
+	(label "VREF"
+		(at 134.62 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5c005dc-a7a9-41de-bc98-2941311555c1")
+	)
+	(hierarchical_label "IN0"
+		(shape input)
+		(at 120.65 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f39f746-c61c-414e-882e-7f9c2ca0eb5b")
+	)
+	(hierarchical_label "OUT0"
+		(shape output)
+		(at 180.34 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30b48003-53b0-4b7a-a609-cf9df0de77d2")
+	)
+	(hierarchical_label "IN3"
+		(shape input)
+		(at 121.92 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56722c57-7fa0-447f-94ad-53405aed1b00")
+	)
+	(hierarchical_label "IN2"
+		(shape input)
+		(at 120.65 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e57c4c3-8b7e-41b8-8d7f-923e773b8c45")
+	)
+	(hierarchical_label "OUT3"
+		(shape output)
+		(at 181.61 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c87aea43-f299-4a57-bb2e-c2ef681ff461")
+	)
+	(hierarchical_label "OUT2"
+		(shape output)
+		(at 180.34 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c95e6bdc-4f01-40f1-99e1-0ac737e27247")
+	)
+	(hierarchical_label "OUT1"
+		(shape output)
+		(at 180.34 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f060fab5-d63b-4d50-bbaa-69b9fe3212fb")
+	)
+	(hierarchical_label "IN1"
+		(shape input)
+		(at 120.65 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fea2fa5d-67e4-4dd5-ab94-aee49ce0db0d")
+	)
+	(symbol
+		(lib_id "power:PGND")
+		(at 157.48 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04f5d5ea-36fa-42b9-bc6d-480231cd4f2d")
+		(property "Reference" "#PWR073"
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 157.48 74.168 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57c39d6d-1572-4153-96a4-209cdae09dc5")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4700FTL")
+		(at 66.04 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b45a53f-ccb8-4f5d-86e6-f21b09e13ca1")
+		(property "Reference" "R53"
+			(at 63.5 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4700FTL"
+			(at 69.85 68.58 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.008 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "470 Ohm ±1% 1/10W"
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4700"
+			(at 66.04 68.58 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2f430ff-a022-423f-8841-2f693826ebbd")
+		)
+		(pin "2"
+			(uuid "eff5be38-f4e2-4e06-92d6-dfb8622bc9d8")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 167.64 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ea8407f-bfae-412c-bd6c-6bb994d0ad76")
+		(property "Reference" "#PWR092"
+			(at 167.64 104.394 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 167.64 104.394 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10aeed46-f926-4ebb-be0a-838b746fc658")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:V_SUPPLY")
+		(at 66.04 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16830675-f157-42fa-b47d-18336877f6bc")
+		(property "Reference" "#PWR080"
+			(at 66.04 47.244 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_SUPPLY"
+			(at 66.04 47.244 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a247f91-5614-4135-be8b-db3087be97ab")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR098")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:V_SUPPLY")
+		(at 157.48 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a5e539d-261c-4d08-8435-9119026f1799")
+		(property "Reference" "#PWR085"
+			(at 157.48 81.534 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_SUPPLY"
+			(at 157.48 81.534 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a2f4a8f-b9c0-4aa4-909c-bee816603494")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4701FTL")
+		(at 167.64 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e1b1b09-8ace-49c6-b743-174560a8b758")
+		(property "Reference" "R36"
+			(at 170.18 58.42 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4701FTL"
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 172.72 58.42 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.608 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhm ±1% 1/10W"
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 170.18 58.42 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4701"
+			(at 167.64 58.42 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec43dedb-e801-441d-a212-d025b27f598a")
+		)
+		(pin "1"
+			(uuid "98dad03e-e9eb-4bd0-8107-30a31023a197")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PGND")
+		(at 132.08 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e535782-cc88-492a-8a8d-762ed081de8c")
+		(property "Reference" "#PWR088"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 132.08 102.362 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0131b0db-55b7-4ac2-b3ba-9f09c8479b2a")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X1002FTL")
+		(at 173.99 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22d8d0ba-a3f0-48b9-8c22-5202d468bf1b")
+		(property "Reference" "R66"
+			(at 173.99 62.738 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X1002FTL"
+			(at 173.99 68.58 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 62.738 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "10 kOhm 1% 1/10W"
+			(at 173.99 71.12 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 173.99 67.31 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "1002"
+			(at 173.99 64.77 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d8ae5b3-9c65-4c74-bff9-182dcd6ddff4")
+		)
+		(pin "2"
+			(uuid "ed46f6e9-3082-4633-8b45-b3d5d30870a3")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:V_SUPPLY")
+		(at 158.75 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26ace180-bd27-45ac-88ff-c175950c1351")
+		(property "Reference" "#PWR095"
+			(at 158.75 134.874 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_SUPPLY"
+			(at 158.75 134.874 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d2beedf-66ce-430d-8f81-3adfe4ddaa2d")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LM239DR2G_1")
+		(lib_id "Comparator:LM239DR2G")
+		(at 157.48 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "280f45f7-8982-427e-8a7a-b3202599ca5e")
+		(property "Reference" "U14"
+			(at 158.75 114.3 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM239DR2G"
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SO:SOIC-14"
+			(at 157.48 130.81 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Quad Differential Comparators"
+			(at 157.48 132.08 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 157.48 128.27 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "LM239"
+			(at 157.48 118.11 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "e01d3640-2ec1-4922-809e-05ee03840837")
+		)
+		(pin "14"
+			(uuid "3a23a0d3-c519-4e40-bfb4-be969ef09149")
+		)
+		(pin "10"
+			(uuid "685d6f5c-16a8-47e4-ae84-11d54c8a04a1")
+		)
+		(pin "5"
+			(uuid "4110f8d9-9ecb-4d6c-b0ff-692d2b9126e7")
+		)
+		(pin "9"
+			(uuid "d2121646-f027-466c-b78d-6dbb57fba94c")
+		)
+		(pin "2"
+			(uuid "0b469329-5e94-4504-b51f-4bb205750c0d")
+		)
+		(pin "13"
+			(uuid "573bbf65-a6d3-43da-bbaa-edc9f18f9f9f")
+		)
+		(pin "12"
+			(uuid "d81a940b-de80-4c59-b4a0-721258a09bec")
+		)
+		(pin "1"
+			(uuid "efd4498f-b05e-44bb-a43c-0598cae6af8c")
+		)
+		(pin "4"
+			(uuid "95721ebf-d503-46d9-aaa6-c804d0ba23bd")
+		)
+		(pin "6"
+			(uuid "5a228fa6-32c4-4417-bb28-16be7433a088")
+		)
+		(pin "3"
+			(uuid "40ef5b88-8a81-46bf-8b06-e61f90ad3486")
+		)
+		(pin "11"
+			(uuid "b3b4ae97-d172-429c-be2e-67c0f0b604b8")
+		)
+		(pin "8"
+			(uuid "a266e156-f74e-45cd-a93d-3f82d1ab12ae")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "U18")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 168.91 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a10b2d9-4c4d-4c2b-a152-2f3fe9882353")
+		(property "Reference" "#PWR097"
+			(at 168.91 131.064 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 168.91 131.064 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94889bbb-2e65-4a05-9527-8f3afef086bb")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode_Protection:KDS226")
+		(at 134.62 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cbcf0bf-3bc4-41c0-90e9-27ad5b898ad7")
+		(property "Reference" "D7"
+			(at 129.54 52.07 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "KDS226"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SOT:SOT23"
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 55.88 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "ULTRA HIGH SPEED SWITCHING APPLICATION"
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEC"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9cd69a2-c178-4ed9-8d65-5dbdc0febbf9")
+		)
+		(pin "3"
+			(uuid "ad5de8a6-0bb2-46f8-9fb1-8adb03dcc0c1")
+		)
+		(pin "1"
+			(uuid "c49e9d76-1a68-46cd-bd0b-ab7cdec00ced")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:V_SUPPLY")
+		(at 157.48 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e59d99b-34cd-40e0-8dc3-6bf14c848d7e")
+		(property "Reference" "#PWR082"
+			(at 157.48 39.624 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_SUPPLY"
+			(at 157.48 39.624 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 41.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 41.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "742beb10-ee15-4d7e-8424-3949316b7450")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PGND")
+		(at 157.48 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ec0cdcf-2a9c-4d97-9af0-d0c1167fc79c")
+		(property "Reference" "#PWR086"
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 157.48 100.838 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bebd361b-a74c-4aef-9edd-c3817b8e7c20")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4701FTL")
+		(at 128.27 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42aa6a61-5e43-4281-9bed-f44a5ea28012")
+		(property "Reference" "R38"
+			(at 128.27 91.44 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4701FTL"
+			(at 128.27 92.71 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 86.868 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhm ±1% 1/10W"
+			(at 128.27 95.25 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4701"
+			(at 128.27 88.9 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "449aa3ab-d8da-4130-b1e7-11816809014c")
+		)
+		(pin "1"
+			(uuid "cf28a94d-6444-4820-b362-b5aa3320a0ce")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 167.64 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47b6310c-ea1b-4673-b847-7c290a4b0c8d")
+		(property "Reference" "#PWR0119"
+			(at 167.64 51.054 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 167.64 51.054 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b922a22f-38f3-4165-80cd-0c5c03c37504")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4701FTL")
+		(at 140.97 62.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f8d3688-6ec3-4c7f-aaad-79c857c047fc")
+		(property "Reference" "R58"
+			(at 140.97 59.69 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4701FTL"
+			(at 140.97 58.42 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 140.97 57.15 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 64.262 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhm ±1% 1/10W"
+			(at 140.97 55.88 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 140.97 59.69 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4701"
+			(at 140.97 62.23 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3534c26d-3d5a-4359-ac05-0cc4f6482019")
+		)
+		(pin "1"
+			(uuid "559823a9-a777-4fca-be0f-b4ec63754370")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:V_SUPPLY")
+		(at 138.43 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52522ca6-80e6-44cb-ad11-f232f877c97f")
+		(property "Reference" "#PWR094"
+			(at 138.43 128.524 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_SUPPLY"
+			(at 138.43 128.524 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5db23dc3-64d9-4d40-b3f5-b621af2edc14")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X1002FTL")
+		(at 175.26 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57adb393-31fa-41f9-a964-ecbf15dc47a3")
+		(property "Reference" "R51"
+			(at 175.26 142.748 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X1002FTL"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 175.26 149.86 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 142.748 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "10 kOhm 1% 1/10W"
+			(at 175.26 151.13 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "1002"
+			(at 175.26 144.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f89c6e9-4d3a-4af6-ab00-67533fecaef0")
+		)
+		(pin "2"
+			(uuid "459c0e16-9950-40f7-aeb2-cf4096d5ca9e")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R69")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:V_SUPPLY")
+		(at 137.16 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59277127-8a7c-40a1-be7b-215f6b5bc60e")
+		(property "Reference" "#PWR089"
+			(at 137.16 101.854 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_SUPPLY"
+			(at 137.16 101.854 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9e3f7b5-2f8a-4cec-a026-e344ad1cd7ab")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X1002FTL")
+		(at 173.99 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "597ce2fb-8ef4-4062-9708-11544ffc0c5e")
+		(property "Reference" "R47"
+			(at 173.99 116.078 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X1002FTL"
+			(at 173.99 121.92 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 116.078 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "10 kOhm 1% 1/10W"
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "1002"
+			(at 173.99 118.11 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfe909d3-fe88-4956-89c7-f4ae476bdf88")
+		)
+		(pin "2"
+			(uuid "b99268f3-4407-47aa-ba13-5e3044b8af24")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R68")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4701FTL")
+		(at 129.54 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c864a47-9e51-4073-bf3e-34be0cc7bbd2")
+		(property "Reference" "R48"
+			(at 129.54 144.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4701FTL"
+			(at 129.54 146.05 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 129.54 147.32 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 140.208 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhm ±1% 1/10W"
+			(at 129.54 148.59 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 129.54 144.78 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4701"
+			(at 129.54 142.24 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2e39c485-d9ae-4fbc-bb2c-6b3ce5581208")
+		)
+		(pin "1"
+			(uuid "342b55ec-395f-40bf-b6d9-168c7680cd9c")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R57")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PGND")
+		(at 158.75 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6052bb24-a326-49d9-b808-5d9f0a876b22")
+		(property "Reference" "#PWR096"
+			(at 158.75 152.4 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 158.75 154.178 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 152.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 152.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b67a69cc-188d-42cd-8e40-7cfd46ef2cc4")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor_MLCC:0603B104K500")
+		(at 157.48 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64e3bbe1-03fc-43d8-a2e1-7b5295445c3b")
+		(property "Reference" "C46"
+			(at 158.75 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0603B104K500"
+			(at 157.48 49.53 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMC:0603"
+			(at 157.48 50.8 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V X7R"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 157.48 48.26 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "104p"
+			(at 158.75 45.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "6bb14dbd-a908-4b9e-b5c9-577272f72856")
+		)
+		(pin "1"
+			(uuid "ed3f0eee-f7e8-4540-aa7d-35f11ea06046")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4701FTL")
+		(at 140.97 88.9 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66010136-3226-4cfe-907e-e2efdcc0961f")
+		(property "Reference" "R39"
+			(at 140.97 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4701FTL"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 140.97 83.82 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 90.932 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhm ±1% 1/10W"
+			(at 140.97 82.55 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4701"
+			(at 140.97 88.9 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "934aaf2e-4147-4aad-bbb2-d2ae9aa87a37")
+		)
+		(pin "1"
+			(uuid "6a6d65cd-ae80-440a-a498-8cce8f331433")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R59")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PGND")
+		(at 132.08 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ad69489-fa6d-4624-a8b1-cdba58782930")
+		(property "Reference" "#PWR076"
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 132.08 49.022 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8463785-f690-4abb-b90e-b52e8853126f")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4701FTL")
+		(at 140.97 115.57 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d0c2387-5639-42e8-ae0b-4229fc9fbb70")
+		(property "Reference" "R45"
+			(at 140.97 113.03 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4701FTL"
+			(at 140.97 111.76 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 140.97 110.49 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 117.602 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhm ±1% 1/10W"
+			(at 140.97 109.22 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4701"
+			(at 140.97 115.57 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "22b2a565-9a8c-41a3-97cb-8be779d5cb60")
+		)
+		(pin "1"
+			(uuid "40299eac-d93e-4a77-96ee-73bf5fa4a376")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode_Protection:KDS226")
+		(at 135.89 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e73fc65-1efa-4cf6-9062-b2763914c147")
+		(property "Reference" "D6"
+			(at 130.81 132.08 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "KDS226"
+			(at 135.89 143.51 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SOT:SOT23"
+			(at 135.89 144.78 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 135.89 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "ULTRA HIGH SPEED SWITCHING APPLICATION"
+			(at 135.89 146.05 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEC"
+			(at 135.89 142.24 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5358d8a5-ac70-4fba-b55d-e879253db665")
+		)
+		(pin "3"
+			(uuid "6d6f0f23-528d-4342-a98a-9b14a27d8193")
+		)
+		(pin "1"
+			(uuid "c2a53b58-0e4f-4d68-b532-c37e14d0f5f4")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PGND")
+		(at 71.12 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70683c48-bb84-4167-bdf5-4604c8135b2b")
+		(property "Reference" "#PWR084"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 71.12 76.708 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d918c45-96a8-4816-a276-9ce3f4bac7ba")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4701FTL")
+		(at 66.04 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72277589-8ea4-46db-84da-a90b1caf0344")
+		(property "Reference" "R40"
+			(at 63.5 55.88 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4701FTL"
+			(at 62.23 55.88 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.072 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhm ±1% 1/10W"
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4701"
+			(at 66.04 55.88 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3a0ebdb6-2271-4259-ae9c-031d848d9f13")
+		)
+		(pin "1"
+			(uuid "34ad4533-ec84-4edb-bc43-f398c21cc618")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4701FTL")
+		(at 167.64 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73a402ee-9184-400d-a22f-cf9d4fc774a5")
+		(property "Reference" "R42"
+			(at 170.18 85.09 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4701FTL"
+			(at 171.45 85.09 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.608 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhm ±1% 1/10W"
+			(at 173.99 85.09 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4701"
+			(at 167.64 85.09 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "29df730f-80ca-4e51-9132-184da07b50dc")
+		)
+		(pin "1"
+			(uuid "30102d54-d78d-4bce-9e87-cfbb5deec47e")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R63")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PGND")
+		(at 157.48 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75d8fd4c-49c4-4f4f-b294-258ff8f0ef37")
+		(property "Reference" "#PWR083"
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 157.48 48.768 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86ba4da9-0632-4dc2-8cd8-47bc7dc8ffa0")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:V_SUPPLY")
+		(at 137.16 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87b0b5b9-0991-4a9d-a818-594694f60992")
+		(property "Reference" "#PWR079"
+			(at 137.16 75.184 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_SUPPLY"
+			(at 137.16 75.184 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd269f82-72d4-423f-8a75-f7e10fccb067")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PGND")
+		(at 133.35 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88fd03f6-e076-46b1-a5c3-92253ecd5752")
+		(property "Reference" "#PWR093"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 133.35 129.032 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3a2485b-4f4b-4c45-891b-56cb2d2ba704")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:V_SUPPLY")
+		(at 157.48 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bc3713e-0658-4448-a623-be81dacde518")
+		(property "Reference" "#PWR074"
+			(at 157.48 54.864 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_SUPPLY"
+			(at 157.48 54.864 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cae9c0f0-ef99-4f24-bdb3-7bd14c188784")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4701FTL")
+		(at 142.24 142.24 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a49bd95c-73b3-40d9-b82e-e2da557ad63d")
+		(property "Reference" "R49"
+			(at 142.24 139.7 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4701FTL"
+			(at 142.24 138.43 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 142.24 137.16 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 144.272 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhm ±1% 1/10W"
+			(at 142.24 135.89 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 142.24 139.7 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4701"
+			(at 142.24 142.24 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "15285366-cc58-4819-98de-f1e615845385")
+		)
+		(pin "1"
+			(uuid "fb76f2b4-0c46-41c8-b368-93d5a16480d0")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LM239DR2G_1")
+		(lib_id "Comparator:LM239DR2G")
+		(at 157.48 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab88885f-db39-450d-8895-071c6323cf32")
+		(property "Reference" "U13"
+			(at 158.75 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM239DR2G"
+			(at 157.48 102.87 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SO:SOIC-14"
+			(at 157.48 104.14 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Quad Differential Comparators"
+			(at 157.48 105.41 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 157.48 101.6 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "LM239"
+			(at 157.48 91.44 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "8821e6c3-0c87-4c50-880b-c7d1de62f841")
+		)
+		(pin "14"
+			(uuid "3a23a0d3-c519-4e40-bfb4-be969ef09149")
+		)
+		(pin "10"
+			(uuid "685d6f5c-16a8-47e4-ae84-11d54c8a04a1")
+		)
+		(pin "5"
+			(uuid "4110f8d9-9ecb-4d6c-b0ff-692d2b9126e7")
+		)
+		(pin "9"
+			(uuid "d2121646-f027-466c-b78d-6dbb57fba94c")
+		)
+		(pin "2"
+			(uuid "0b469329-5e94-4504-b51f-4bb205750c0d")
+		)
+		(pin "13"
+			(uuid "573bbf65-a6d3-43da-bbaa-edc9f18f9f9f")
+		)
+		(pin "12"
+			(uuid "f915c6c1-217c-414b-8ab7-cefbc6108193")
+		)
+		(pin "1"
+			(uuid "1d672295-055b-403e-b1d0-2884a0e4c28d")
+		)
+		(pin "4"
+			(uuid "95721ebf-d503-46d9-aaa6-c804d0ba23bd")
+		)
+		(pin "6"
+			(uuid "729f7f71-d811-40fc-9b3f-0ac0d98888c2")
+		)
+		(pin "3"
+			(uuid "206dd97a-12d5-4b95-a2b3-0d5910ced196")
+		)
+		(pin "11"
+			(uuid "b3b4ae97-d172-429c-be2e-67c0f0b604b8")
+		)
+		(pin "8"
+			(uuid "a266e156-f74e-45cd-a93d-3f82d1ab12ae")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "U17")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PGND")
+		(at 132.08 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abf49f90-76f7-4838-9a24-4fcb42e132cd")
+		(property "Reference" "#PWR078"
+			(at 132.08 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 132.08 75.692 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "502cebc4-faec-4171-b977-61e27128b62d")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4701FTL")
+		(at 167.64 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9421224-0d40-4e62-9a12-6e7120359ffc")
+		(property "Reference" "R46"
+			(at 170.18 111.76 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4701FTL"
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.608 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhm ±1% 1/10W"
+			(at 173.99 111.76 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4701"
+			(at 167.64 111.76 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "55249129-6c1f-4d1c-966a-3f1ae6b1a1ee")
+		)
+		(pin "1"
+			(uuid "e0350e5e-d23f-4fce-a602-e06c675851a9")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R64")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4701FTL")
+		(at 128.27 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9df6159-862e-4335-9ec9-0b8f9744e0cf")
+		(property "Reference" "R44"
+			(at 128.27 118.11 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4701FTL"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 113.538 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhm ±1% 1/10W"
+			(at 128.27 121.92 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4701"
+			(at 128.27 115.57 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "88482ff6-ccb1-471c-8ab8-491965f52cee")
+		)
+		(pin "1"
+			(uuid "1e30645d-6f07-483c-954c-5111c3cd5d80")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:V_SUPPLY")
+		(at 157.48 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c85da15f-4fb9-4b41-aaa8-c29a5c2c2dab")
+		(property "Reference" "#PWR090"
+			(at 157.48 108.204 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_SUPPLY"
+			(at 157.48 108.204 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e66a614-4522-4594-b5b9-609507baa526")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4701FTL")
+		(at 168.91 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "caa145a7-59ee-431f-a5f6-4df92e146fab")
+		(property "Reference" "R50"
+			(at 171.45 138.43 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4701FTL"
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 173.99 138.43 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.878 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhm ±1% 1/10W"
+			(at 175.26 138.43 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 171.45 138.43 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4701"
+			(at 168.91 138.43 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2c6f3a00-9fcc-43aa-ac0e-d0f3b213b2c0")
+		)
+		(pin "1"
+			(uuid "070bf6f9-f25e-4ccd-b997-88b9be383eab")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R65")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode_Protection:KDS226")
+		(at 134.62 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d14656b3-2148-423f-91a4-ef39c4f42951")
+		(property "Reference" "D3"
+			(at 129.54 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "KDS226"
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SOT:SOT23"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 82.55 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "ULTRA HIGH SPEED SWITCHING APPLICATION"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEC"
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "056a09cb-2816-4422-81f2-4cefdf10965e")
+		)
+		(pin "3"
+			(uuid "c8c2281f-434a-4a8a-8c8c-7d5595ae0bc7")
+		)
+		(pin "1"
+			(uuid "4da5f9fa-cdbb-4da2-a71c-909d24129afa")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PGND")
+		(at 157.48 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1c666a1-fba5-4c74-9d1a-21229da2cdd6")
+		(property "Reference" "#PWR091"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 157.48 127.508 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a41c14e9-0734-419d-8e24-bd9254e76c6c")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X4701FTL")
+		(at 128.27 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3d58eb4-e4f8-4c9e-96cd-9ae2d0b4d12d")
+		(property "Reference" "R34"
+			(at 128.27 64.77 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X4701FTL"
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 128.27 67.31 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 60.198 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "4.7 kOhm ±1% 1/10W"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "4701"
+			(at 128.27 62.23 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d8a70029-c4ee-45ae-894e-e20fce3b5a25")
+		)
+		(pin "1"
+			(uuid "dfc2bc09-ad87-4ba2-a2d6-fe1a46dfd662")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R54")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor_MLCC:0603B104K500")
+		(at 71.12 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4c11ad1-ba42-4a9d-8625-344c8d92805d")
+		(property "Reference" "C44"
+			(at 72.39 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0603B104K500"
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMC:0603"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V X7R"
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "104p"
+			(at 72.39 69.85 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "d91c2f44-186b-49a5-927e-b9bfc6385d31")
+		)
+		(pin "1"
+			(uuid "384de4d7-1a3b-4129-a357-60113721cb5d")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:V_SUPPLY")
+		(at 137.16 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8e4a9dc-ba4e-4fca-83a0-100e86b2ca78")
+		(property "Reference" "#PWR075"
+			(at 137.16 48.514 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_SUPPLY"
+			(at 137.16 48.514 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c28f790-18ff-458d-a8a2-49f29e4b22b1")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode_Protection:KDS226")
+		(at 134.62 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcb405e2-92a2-469c-9471-0152ddb19d8b")
+		(property "Reference" "D5"
+			(at 129.54 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "KDS226"
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SOT:SOT23"
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 109.22 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "ULTRA HIGH SPEED SWITCHING APPLICATION"
+			(at 134.62 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEC"
+			(at 134.62 115.57 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3cbeb2e2-a3b4-4afd-8ee1-b8ca9c876f38")
+		)
+		(pin "3"
+			(uuid "f05533d6-c6c1-4ba4-a992-88546009d503")
+		)
+		(pin "1"
+			(uuid "9cd78dd1-77da-4a86-a453-25e6e1e11e11")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:WR06X1002FTL")
+		(at 173.99 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5f974ff-2abc-4b07-ad4b-23d54f440b58")
+		(property "Reference" "R43"
+			(at 173.99 89.408 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "WR06X1002FTL"
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMR:0603"
+			(at 173.99 96.52 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 89.408 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "10 kOhm 1% 1/10W"
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WALSIN"
+			(at 173.99 93.98 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "1002"
+			(at 173.99 91.44 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e8e1153-fb87-4c2d-9e7f-72f82ee9abe6")
+		)
+		(pin "2"
+			(uuid "2c93a72d-4e80-468b-84ed-a4fe97bb1112")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "R67")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 167.64 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea615760-f772-495f-b7cf-94e761e7df21")
+		(property "Reference" "#PWR087"
+			(at 167.64 77.724 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 167.64 77.724 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2ed6c9e-cbf4-4e22-a155-d916df8c9fe4")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PGND")
+		(at 66.04 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea69283d-ee07-4d19-805f-9416e4ce2532")
+		(property "Reference" "#PWR081"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PGND"
+			(at 66.04 76.708 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "334593ef-0339-42fb-998f-92898d3b2d8d")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "#PWR099")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LM239DR2G_1")
+		(lib_id "Comparator:LM239DR2G")
+		(at 158.75 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f35e9807-733d-4f50-9530-028857c67807")
+		(property "Reference" "U15"
+			(at 160.02 140.97 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM239DR2G"
+			(at 158.75 156.21 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SO:SOIC-14"
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Quad Differential Comparators"
+			(at 158.75 158.75 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 158.75 154.94 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "LM239"
+			(at 158.75 144.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "145b6d50-0f14-4e47-9024-ecdf8e605c59")
+		)
+		(pin "14"
+			(uuid "3a23a0d3-c519-4e40-bfb4-be969ef09149")
+		)
+		(pin "10"
+			(uuid "685d6f5c-16a8-47e4-ae84-11d54c8a04a1")
+		)
+		(pin "5"
+			(uuid "4110f8d9-9ecb-4d6c-b0ff-692d2b9126e7")
+		)
+		(pin "9"
+			(uuid "d2121646-f027-466c-b78d-6dbb57fba94c")
+		)
+		(pin "2"
+			(uuid "0b469329-5e94-4504-b51f-4bb205750c0d")
+		)
+		(pin "13"
+			(uuid "573bbf65-a6d3-43da-bbaa-edc9f18f9f9f")
+		)
+		(pin "12"
+			(uuid "7c049191-f6dd-4610-a9af-5fd6eab32cf0")
+		)
+		(pin "1"
+			(uuid "bf19c7e9-5a4d-4177-a878-e9e129d63497")
+		)
+		(pin "4"
+			(uuid "95721ebf-d503-46d9-aaa6-c804d0ba23bd")
+		)
+		(pin "6"
+			(uuid "3ebb7cec-6657-4b00-a580-70bec1166e6c")
+		)
+		(pin "3"
+			(uuid "8cd9d538-e87d-4674-a229-cd1127c2d294")
+		)
+		(pin "11"
+			(uuid "b3b4ae97-d172-429c-be2e-67c0f0b604b8")
+		)
+		(pin "8"
+			(uuid "a266e156-f74e-45cd-a93d-3f82d1ab12ae")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "U19")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LM239DR2G_1")
+		(lib_id "Comparator:LM239DR2G")
+		(at 157.48 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd35e1d6-6ce4-480f-a2d7-c055aa1557e3")
+		(property "Reference" "U12"
+			(at 158.75 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM239DR2G"
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SO:SOIC-14"
+			(at 157.48 77.47 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Quad Differential Comparators"
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "#Value" "LM239"
+			(at 157.48 64.77 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "e340a861-3233-4378-aac0-e4240401e971")
+		)
+		(pin "14"
+			(uuid "3a23a0d3-c519-4e40-bfb4-be969ef09149")
+		)
+		(pin "10"
+			(uuid "685d6f5c-16a8-47e4-ae84-11d54c8a04a1")
+		)
+		(pin "5"
+			(uuid "4110f8d9-9ecb-4d6c-b0ff-692d2b9126e7")
+		)
+		(pin "9"
+			(uuid "d2121646-f027-466c-b78d-6dbb57fba94c")
+		)
+		(pin "2"
+			(uuid "0b469329-5e94-4504-b51f-4bb205750c0d")
+		)
+		(pin "13"
+			(uuid "573bbf65-a6d3-43da-bbaa-edc9f18f9f9f")
+		)
+		(pin "12"
+			(uuid "4f46f5fc-5e7c-4876-8ccb-bb3773b741b9")
+		)
+		(pin "1"
+			(uuid "e30c6e3b-cb89-4d0c-a26c-6e6e18c85d2d")
+		)
+		(pin "4"
+			(uuid "95721ebf-d503-46d9-aaa6-c804d0ba23bd")
+		)
+		(pin "6"
+			(uuid "ab121d80-917c-4688-be58-d14207ed2a3d")
+		)
+		(pin "3"
+			(uuid "ffeb29bb-277f-492a-a180-9e977d9a5956")
+		)
+		(pin "11"
+			(uuid "b3b4ae97-d172-429c-be2e-67c0f0b604b8")
+		)
+		(pin "8"
+			(uuid "a266e156-f74e-45cd-a93d-3f82d1ab12ae")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
+					(reference "U16")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

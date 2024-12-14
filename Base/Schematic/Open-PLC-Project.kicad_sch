@@ -359,7 +359,243 @@
 		)
 	)
 	(sheet
-		(at 105.41 104.14)
+		(at 107.95 137.16)
+		(size 33.02 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "118d5dbd-6b9b-4ba5-a602-028a7302f09c")
+		(property "Sheetname" "DIN2"
+			(at 107.95 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DIN.kicad_sch"
+			(at 107.95 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN2" input
+			(at 140.97 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83fedf6d-3869-41ef-9b69-0d5ca406386f")
+		)
+		(pin "IN3" input
+			(at 140.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "52443db0-5a31-4b44-8724-973003ebb550")
+		)
+		(pin "OUT2" output
+			(at 107.95 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9291dc4a-8a39-4fde-a855-18ddf1543cfc")
+		)
+		(pin "OUT3" output
+			(at 107.95 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4850f2dd-d0dd-42de-a694-bc32cf7b8903")
+		)
+		(pin "OUT1" output
+			(at 107.95 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98cff816-4d37-403a-aafe-93d6e730c988")
+		)
+		(pin "OUT0" output
+			(at 107.95 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "28e52679-148c-447f-8f79-2a1298fcb166")
+		)
+		(pin "IN0" input
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dbc75540-f965-4f7c-a3d2-1643d213c251")
+		)
+		(pin "IN1" input
+			(at 140.97 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "18b13044-f646-4a07-807c-af892c7e6470")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 118.11)
+		(size 33.02 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26fb2e73-ad60-4192-8be6-ff62c963986a")
+		(property "Sheetname" "DIN1"
+			(at 107.95 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DIN.kicad_sch"
+			(at 107.95 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN2" input
+			(at 140.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40cc858a-fc08-4d3b-b1a6-a53c3b52c619")
+		)
+		(pin "IN3" input
+			(at 140.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5b699803-0e18-4f83-b404-71d977451a2d")
+		)
+		(pin "OUT2" output
+			(at 107.95 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "470ec24b-5c99-4ec3-8ce4-309b4cf3af84")
+		)
+		(pin "OUT3" output
+			(at 107.95 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "14189512-1111-423f-86b1-15102ff6a5bd")
+		)
+		(pin "OUT1" output
+			(at 107.95 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3797a7bb-a771-41e5-9639-7a7c14e663c0")
+		)
+		(pin "OUT0" output
+			(at 107.95 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "68967514-1bd8-4f1e-b6a1-807fca36916a")
+		)
+		(pin "IN0" input
+			(at 140.97 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ee979ce1-fb13-400d-bf52-992d47f1092f")
+		)
+		(pin "IN1" input
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9afbd793-4e30-4bdb-a919-bdf2954c5d88")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 88.9)
 		(size 33.02 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -371,7 +607,7 @@
 		)
 		(uuid "35842953-03b1-4d1a-a0b9-e32cdca1a04c")
 		(property "Sheetname" "DOUT2"
-			(at 105.41 103.4284 0)
+			(at 107.95 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -380,7 +616,7 @@
 			)
 		)
 		(property "Sheetfile" "DOUT.kicad_sch"
-			(at 105.41 127.5846 0)
+			(at 107.95 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -389,7 +625,7 @@
 			)
 		)
 		(pin "OUT2" output
-			(at 138.43 111.76 0)
+			(at 140.97 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -399,7 +635,7 @@
 			(uuid "cad04d4e-ac8e-49c5-a3ef-d1011fb80f89")
 		)
 		(pin "OUT0" output
-			(at 138.43 106.68 0)
+			(at 140.97 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409,7 +645,7 @@
 			(uuid "039dbb0b-8d9b-48b7-9861-3d99143f5f3c")
 		)
 		(pin "OUT1" output
-			(at 138.43 109.22 0)
+			(at 140.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -419,7 +655,7 @@
 			(uuid "fe7d753e-ca32-4cd7-a518-4b467ae92ad1")
 		)
 		(pin "OUT3" output
-			(at 138.43 114.3 0)
+			(at 140.97 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -429,7 +665,7 @@
 			(uuid "a9824b33-613b-4e72-a9bf-3498b80b4cba")
 		)
 		(pin "IS" output
-			(at 105.41 124.46 180)
+			(at 107.95 109.22 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -439,7 +675,7 @@
 			(uuid "e2bd6e7d-2ed5-47e0-bfe2-7e421a26bea0")
 		)
 		(pin "IN0" input
-			(at 105.41 106.68 180)
+			(at 107.95 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +685,7 @@
 			(uuid "d6e88307-e800-4ac9-a12d-a03fc18a59af")
 		)
 		(pin "IN2" input
-			(at 105.41 111.76 180)
+			(at 107.95 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -459,7 +695,7 @@
 			(uuid "5834a051-2476-49f1-981f-ed612498116b")
 		)
 		(pin "IN1" input
-			(at 105.41 109.22 180)
+			(at 107.95 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +705,7 @@
 			(uuid "760c989c-6f62-4738-ad1c-542178666fe6")
 		)
 		(pin "IN3" input
-			(at 105.41 114.3 180)
+			(at 107.95 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -479,7 +715,7 @@
 			(uuid "b14e54b5-06a0-4af5-bd93-380054d719e5")
 		)
 		(pin "DEN" input
-			(at 105.41 116.84 180)
+			(at 107.95 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,7 +725,7 @@
 			(uuid "18f9a6cd-57bb-4a7c-90c7-f52653cf3d27")
 		)
 		(pin "DSEL1" input
-			(at 105.41 119.38 180)
+			(at 107.95 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -499,7 +735,7 @@
 			(uuid "491537dd-20f2-4595-9d24-b02756f2e604")
 		)
 		(pin "DSEL0" input
-			(at 105.41 121.92 180)
+			(at 107.95 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,7 +791,7 @@
 		)
 	)
 	(sheet
-		(at 106.68 163.83)
+		(at 107.95 157.48)
 		(size 33.02 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -567,7 +803,7 @@
 		)
 		(uuid "94b67e7c-4fbc-4e60-a407-bbddd4f9dc06")
 		(property "Sheetname" "Power"
-			(at 106.68 163.1184 0)
+			(at 107.95 156.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -576,7 +812,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 106.68 175.8446 0)
+			(at 107.95 169.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,7 +829,7 @@
 		)
 	)
 	(sheet
-		(at 105.41 73.66)
+		(at 107.95 59.69)
 		(size 33.02 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -605,7 +841,7 @@
 		)
 		(uuid "caced042-0264-4901-a3a6-78acc82068a3")
 		(property "Sheetname" "DOUT1"
-			(at 105.41 72.9484 0)
+			(at 107.95 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,7 +850,7 @@
 			)
 		)
 		(property "Sheetfile" "DOUT.kicad_sch"
-			(at 105.41 97.1046 0)
+			(at 107.95 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -623,7 +859,7 @@
 			)
 		)
 		(pin "OUT2" output
-			(at 138.43 81.28 0)
+			(at 140.97 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,7 +869,7 @@
 			(uuid "a03cfe57-aa0f-404f-bf0a-87cfd52edae5")
 		)
 		(pin "OUT0" output
-			(at 138.43 76.2 0)
+			(at 140.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -643,7 +879,7 @@
 			(uuid "acea8a69-1ccc-4f12-bbf5-dc7779dd8c96")
 		)
 		(pin "OUT1" output
-			(at 138.43 78.74 0)
+			(at 140.97 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,7 +889,7 @@
 			(uuid "89b81fde-ab91-42b3-b8b0-11eca9995458")
 		)
 		(pin "OUT3" output
-			(at 138.43 83.82 0)
+			(at 140.97 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -663,7 +899,7 @@
 			(uuid "11c57ba0-90cf-4f55-8b6e-b59dfe6d759f")
 		)
 		(pin "IS" output
-			(at 105.41 93.98 180)
+			(at 107.95 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,7 +909,7 @@
 			(uuid "e3ec56bd-f0d5-4ab1-832d-8d07cb32e680")
 		)
 		(pin "IN0" input
-			(at 105.41 76.2 180)
+			(at 107.95 62.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,7 +919,7 @@
 			(uuid "be43980c-3da3-4b5e-bb5f-1b894212ea5d")
 		)
 		(pin "IN2" input
-			(at 105.41 81.28 180)
+			(at 107.95 67.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -693,7 +929,7 @@
 			(uuid "830a0157-6bd3-4b01-9162-d6a765fc8cb3")
 		)
 		(pin "IN1" input
-			(at 105.41 78.74 180)
+			(at 107.95 64.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +939,7 @@
 			(uuid "098199c9-b488-4aa5-bf39-684bd08d337f")
 		)
 		(pin "IN3" input
-			(at 105.41 83.82 180)
+			(at 107.95 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,7 +949,7 @@
 			(uuid "fba03b95-9852-4a11-884e-e173762af897")
 		)
 		(pin "DEN" input
-			(at 105.41 86.36 180)
+			(at 107.95 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +959,7 @@
 			(uuid "3fc226c9-be1d-4fef-bd68-75d63810e524")
 		)
 		(pin "DSEL1" input
-			(at 105.41 88.9 180)
+			(at 107.95 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +969,7 @@
 			(uuid "71758543-d91e-4ae9-bea0-389c001a08f9")
 		)
 		(pin "DSEL0" input
-			(at 105.41 91.44 180)
+			(at 107.95 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +987,7 @@
 		)
 	)
 	(sheet
-		(at 105.41 38.1)
+		(at 107.95 26.67)
 		(size 33.02 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -763,7 +999,7 @@
 		)
 		(uuid "d89ef6a0-3ba7-4277-9277-8f32ad685bed")
 		(property "Sheetname" "RS485"
-			(at 105.41 37.3884 0)
+			(at 107.95 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -772,7 +1008,7 @@
 			)
 		)
 		(property "Sheetfile" "RS485.kicad_sch"
-			(at 105.41 51.3846 0)
+			(at 107.95 39.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -781,7 +1017,7 @@
 			)
 		)
 		(pin "RE" input
-			(at 105.41 43.18 180)
+			(at 107.95 31.75 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -791,7 +1027,7 @@
 			(uuid "bef71e21-0ff8-4c29-8edb-5303b556a8bd")
 		)
 		(pin "D" input
-			(at 105.41 45.72 180)
+			(at 107.95 34.29 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -801,7 +1037,7 @@
 			(uuid "a834c9a6-ebeb-48a9-9e09-ce51f60cde21")
 		)
 		(pin "DE" input
-			(at 105.41 48.26 180)
+			(at 107.95 36.83 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,7 +1047,7 @@
 			(uuid "b1f9c503-d364-47a2-bcc1-ebeb5b64b4ae")
 		)
 		(pin "R" output
-			(at 105.41 40.64 180)
+			(at 107.95 29.21 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,7 +1057,7 @@
 			(uuid "883d29ca-0649-47ad-a110-ca79ee613543")
 		)
 		(pin "A" bidirectional
-			(at 138.43 40.64 0)
+			(at 140.97 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,7 +1067,7 @@
 			(uuid "030f71fe-d859-4712-9948-56df3116aa81")
 		)
 		(pin "B" bidirectional
-			(at 138.43 43.18 0)
+			(at 140.97 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -849,7 +1085,7 @@
 		)
 	)
 	(sheet
-		(at 105.41 57.15)
+		(at 107.95 45.72)
 		(size 33.02 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -861,7 +1097,7 @@
 		)
 		(uuid "ecc73c34-7097-4317-902c-c1fb9ea56dcf")
 		(property "Sheetname" "CAN"
-			(at 105.41 56.4384 0)
+			(at 107.95 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +1106,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 105.41 65.3546 0)
+			(at 107.95 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,7 +1115,7 @@
 			)
 		)
 		(pin "RXD" output
-			(at 105.41 59.69 180)
+			(at 107.95 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,7 +1125,7 @@
 			(uuid "7f7d2594-c4bc-4e66-a362-4660b6ec3a4d")
 		)
 		(pin "TXD" input
-			(at 105.41 62.23 180)
+			(at 107.95 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,7 +1135,7 @@
 			(uuid "af902a1c-e5a6-4438-bf0e-639b73dacaa6")
 		)
 		(pin "CANH" bidirectional
-			(at 138.43 59.69 0)
+			(at 140.97 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,7 +1145,7 @@
 			(uuid "b848bef1-7736-486a-8f8c-0694675cdf42")
 		)
 		(pin "CANL" bidirectional
-			(at 138.43 62.23 0)
+			(at 140.97 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

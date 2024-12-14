@@ -632,6 +632,14 @@
     [
       "35842953-03b1-4d1a-a0b9-e32cdca1a04c",
       "DOUT2"
+    ],
+    [
+      "26fb2e73-ad60-4192-8be6-ff62c963986a",
+      "DIN1"
+    ],
+    [
+      "118d5dbd-6b9b-4ba5-a602-028a7302f09c",
+      "DIN2"
     ]
   ],
   "text_variables": {}
