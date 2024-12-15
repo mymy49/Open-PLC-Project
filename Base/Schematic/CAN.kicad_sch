@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "d94d5c09-dd37-4878-9f6b-8a8522aa52c6")
 	(paper "A4")
+	(title_block
+		(title "Open-PLC-Project")
+		(date "2024-12-01")
+		(company "-")
+		(comment 1 "See the file \"LICENSE\" in the main directory of this archive for more details.")
+		(comment 2 "This file is subject to the terms and conditions of the MIT License.")
+		(comment 3 "Copyright (c) 2024 Yoon-Ki Hong")
+	)
 	(lib_symbols
 		(symbol "+5V_ISO_1"
 			(power)
@@ -2829,7 +2837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a6b2644-b6fa-4583-8943-fa318da74f61")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR057"
 			(at 111.76 74.93 0)
 			(effects
 				(font
@@ -2878,7 +2886,7 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
-					(reference "#PWR048")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3411,7 +3419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "443f501a-ce36-4b6b-b671-9737b3f77062")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR059"
 			(at 127 74.93 0)
 			(effects
 				(font
@@ -3460,7 +3468,7 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
-					(reference "#PWR050")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3476,7 +3484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49bde6c2-4ce9-4c67-a719-d1960e52962a")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR056"
 			(at 111.76 62.484 0)
 			(effects
 				(font
@@ -3525,7 +3533,7 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
-					(reference "#PWR047")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3632,7 +3640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62a091a9-f839-4265-993b-74dc3674070b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR060"
 			(at 134.62 74.93 0)
 			(effects
 				(font
@@ -3681,7 +3689,7 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
-					(reference "#PWR051")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -3917,7 +3925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8619588d-8358-4b66-b706-af371f5f34c5")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR058"
 			(at 119.38 74.93 0)
 			(effects
 				(font
@@ -3966,7 +3974,7 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
-					(reference "#PWR049")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4170,7 +4178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6b0e431-27ac-4366-885c-e6b3a39d33ed")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR062"
 			(at 134.62 128.27 0)
 			(effects
 				(font
@@ -4219,7 +4227,7 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
-					(reference "#PWR053")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4585,7 +4593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0174e77-0c54-4793-9ecb-3ba57e85a0fb")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR061"
 			(at 134.62 100.584 0)
 			(effects
 				(font
@@ -4634,7 +4642,7 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/ecc73c34-7097-4317-902c-c1fb9ea56dcf"
-					(reference "#PWR052")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)

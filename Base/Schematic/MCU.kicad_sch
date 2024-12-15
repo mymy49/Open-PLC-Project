@@ -5,11 +5,100 @@
 	(uuid "9de7dfc6-6a6f-4070-8fcb-ffe8ac1b7aa3")
 	(paper "A4")
 	(title_block
+		(title "Open-PLC-Project")
+		(date "2024-12-01")
+		(company "-")
 		(comment 1 "See the file \"LICENSE\" in the main directory of this archive for more details.")
 		(comment 2 "This file is subject to the terms and conditions of the MIT License.")
 		(comment 3 "Copyright (c) 2024 Yoon-Ki Hong")
 	)
 	(lib_symbols
+		(symbol "AGND_1"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "AGND"
+				(at 0 -1.778 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AGND_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AGND_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "AGND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "BatteryHolder:GT-CR1632-1Au"
 			(pin_names
 				(offset 1.016)
@@ -3285,12 +3374,6 @@
 		(uuid "3059b259-4f35-4f3a-b36b-b89b67ae7156")
 	)
 	(junction
-		(at 176.53 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33f977a8-8f72-458b-aa20-5502be38b727")
-	)
-	(junction
 		(at 53.34 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3347,16 +3430,6 @@
 			(type default)
 		)
 		(uuid "012438f3-0a4b-4e2c-97b4-2874d1f00652")
-	)
-	(wire
-		(pts
-			(xy 176.53 121.92) (xy 176.53 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "045dd2cb-7133-4b11-a752-25d0d1732499")
 	)
 	(wire
 		(pts
@@ -3490,7 +3563,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 116.84) (xy 180.34 116.84)
+			(xy 173.99 116.84) (xy 184.15 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3630,7 +3703,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 121.92) (xy 176.53 121.92)
+			(xy 173.99 121.92) (xy 180.34 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3660,7 +3733,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 116.84) (xy 180.34 121.92)
+			(xy 184.15 116.84) (xy 184.15 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3860,6 +3933,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 129.54) (xy 180.34 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0809778-b9bf-460b-b7c8-b486e38efecd")
+	)
+	(wire
+		(pts
 			(xy 34.29 148.59) (xy 22.86 148.59)
 		)
 		(stroke
@@ -3980,7 +4063,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 124.46) (xy 180.34 129.54)
+			(xy 184.15 124.46) (xy 184.15 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5036,7 +5119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c2374df-2347-4731-b0ca-f23e413183da")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 205.74 53.594 0)
 			(effects
 				(font
@@ -5085,7 +5168,7 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5504,6 +5587,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 180.34 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d41e151-4840-47db-b763-16c41ca160b8")
+		(property "Reference" "#PWR016"
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 131.318 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cd3b746-e897-4676-8afd-bcacae2918a9")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 198.12 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5512,7 +5660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51f51486-52b5-4cd1-bdbe-de090c14e0f7")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 198.12 60.96 0)
 			(effects
 				(font
@@ -5561,7 +5709,7 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5754,7 +5902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f15bc47-4721-417a-b2ba-166c11751af5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 198.12 53.594 0)
 			(effects
 				(font
@@ -5803,7 +5951,7 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6407,73 +6555,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 176.53 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2b1764d-08fb-4e80-a799-509f3f8b021f")
-		(property "Reference" "#PWR013"
-			(at 176.53 129.54 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 131.318 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 129.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 129.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15e06ca3-1003-4709-8eee-aaf671ec085e")
-		)
-		(instances
-			(project "Open-PLC-Project"
-				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Capacitor_MLCC:0603X225K100")
-		(at 180.34 123.19 0)
+		(at 184.15 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6482,7 +6565,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5ea0cf9-cb75-4f75-b013-c1eeb1d436e9")
 		(property "Reference" "C8"
-			(at 181.61 121.92 0)
+			(at 185.42 121.92 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6492,7 +6575,7 @@
 			)
 		)
 		(property "Value" "0603X225K100"
-			(at 180.34 128.27 0)
+			(at 184.15 128.27 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6501,7 +6584,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 180.34 129.54 0)
+			(at 184.15 129.54 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6510,7 +6593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 121.92 0)
+			(at 186.69 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6519,7 +6602,7 @@
 			)
 		)
 		(property "Description" "2.2uF 10% 10V X5R"
-			(at 180.34 130.81 0)
+			(at 184.15 130.81 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6528,7 +6611,7 @@
 			)
 		)
 		(property "Manufacturer" "WALSIN"
-			(at 180.34 127 0)
+			(at 184.15 127 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6537,7 +6620,7 @@
 			)
 		)
 		(property "#Value" "225p"
-			(at 181.61 124.46 0)
+			(at 185.42 124.46 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6547,7 +6630,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 180.34 123.19 0)
+			(at 184.15 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6702,7 +6785,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 129.54 0)
+		(at 184.15 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6710,8 +6793,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b77b2435-df52-4eeb-b4bd-df624c4b72c1")
-		(property "Reference" "#PWR016"
-			(at 180.34 129.54 0)
+		(property "Reference" "#PWR017"
+			(at 184.15 129.54 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6720,7 +6803,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 131.318 0)
+			(at 184.15 131.318 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6729,7 +6812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 129.54 0)
+			(at 184.15 129.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6737,7 +6820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 129.54 0)
+			(at 184.15 129.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6745,7 +6828,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 129.54 0)
+			(at 184.15 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +6842,7 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7357,7 +7440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0bc1756-f3d8-4ed0-8c12-7f9d8910b7f9")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 205.74 60.96 0)
 			(effects
 				(font
@@ -7406,7 +7489,73 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
-					(reference "#PWR020")
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "AGND_1")
+		(lib_id "power:AGND")
+		(at 176.53 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1e5a98a-26c3-48fe-9322-eef790270a96")
+		(property "Reference" "#PWR013"
+			(at 176.53 129.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 176.53 131.318 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc7fabad-b6c4-441a-95af-933f73821b3c")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/4500522c-e4c8-424c-82ea-be640253686b"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)

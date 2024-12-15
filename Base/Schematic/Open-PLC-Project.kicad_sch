@@ -477,6 +477,84 @@
 		)
 	)
 	(sheet
+		(at 167.64 26.67)
+		(size 33.02 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a9d8bb0-ef52-4d85-ba2d-8bb910edf4ef")
+		(property "Sheetname" "AIN1"
+			(at 167.64 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AIN.kicad_sch"
+			(at 167.64 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN_IN+" input
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d449edaf-c239-4faa-a740-fb0c3104cec2")
+		)
+		(pin "AIN_IN-" input
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "80d079a8-f417-4bd9-bc27-7f2b26e5b7b9")
+		)
+		(pin "AIN_OUT-" output
+			(at 167.64 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d951c442-ff49-4f1d-911b-3eff570043dd")
+		)
+		(pin "AIN_OUT+" output
+			(at 167.64 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8bd13cd3-32d3-40bb-aa1d-952954c7cbf0")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 107.95 118.11)
 		(size 33.02 12.7)
 		(fields_autoplaced yes)
@@ -791,6 +869,162 @@
 		)
 	)
 	(sheet
+		(at 167.64 40.64)
+		(size 33.02 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ebf55a2-2fd9-4994-a55b-34215ec712f3")
+		(property "Sheetname" "AIN2"
+			(at 167.64 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AIN.kicad_sch"
+			(at 167.64 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN_IN+" input
+			(at 200.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b4a1d42a-99fc-4141-bfe1-fbea3fbb8e31")
+		)
+		(pin "AIN_IN-" input
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bfbc90ec-d405-4a86-8bc9-5ab72a113da0")
+		)
+		(pin "AIN_OUT-" output
+			(at 167.64 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7770c7ed-b043-448d-8c28-6d66311735fa")
+		)
+		(pin "AIN_OUT+" output
+			(at 167.64 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "239b0eef-8d82-43be-be73-76bfc01a4c0d")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 68.58)
+		(size 33.02 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6750012d-3961-4bdb-b25d-4c49a1db34fb")
+		(property "Sheetname" "AIN4"
+			(at 167.64 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AIN.kicad_sch"
+			(at 167.64 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN_IN+" input
+			(at 200.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36a1377e-efe0-4eb7-905a-6614e3c59349")
+		)
+		(pin "AIN_IN-" input
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6eb75de5-b525-47e0-a25b-b607dd983e82")
+		)
+		(pin "AIN_OUT-" output
+			(at 167.64 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "77bbdb2c-a51a-44b3-875b-791e500531b8")
+		)
+		(pin "AIN_OUT+" output
+			(at 167.64 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33a3ad5d-bf94-4f39-a6a5-e3abf62fe842")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 107.95 157.48)
 		(size 33.02 11.43)
 		(fields_autoplaced yes)
@@ -1080,6 +1314,84 @@
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 54.61)
+		(size 33.02 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0df22da-c0ea-46ee-9d99-67b2b0eca379")
+		(property "Sheetname" "AIN3"
+			(at 167.64 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AIN.kicad_sch"
+			(at 167.64 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN_IN+" input
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "35920153-6cf0-4e0d-bf1b-1b8d5390eb1e")
+		)
+		(pin "AIN_IN-" input
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "108b6106-4340-48dc-afeb-a2c96e17fe6f")
+		)
+		(pin "AIN_OUT-" output
+			(at 167.64 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6e997e05-251e-43da-b854-de0022d8eba6")
+		)
+		(pin "AIN_OUT+" output
+			(at 167.64 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "13663da3-034e-46c4-aba1-599074ce58d9")
+		)
+		(instances
+			(project "Open-PLC-Project"
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef"
+					(page "12")
 				)
 			)
 		)

@@ -640,6 +640,22 @@
     [
       "118d5dbd-6b9b-4ba5-a602-028a7302f09c",
       "DIN2"
+    ],
+    [
+      "1a9d8bb0-ef52-4d85-ba2d-8bb910edf4ef",
+      "AIN1"
+    ],
+    [
+      "5ebf55a2-2fd9-4994-a55b-34215ec712f3",
+      "AIN2"
+    ],
+    [
+      "e0df22da-c0ea-46ee-9d99-67b2b0eca379",
+      "AIN3"
+    ],
+    [
+      "6750012d-3961-4bdb-b25d-4c49a1db34fb",
+      "AIN4"
     ]
   ],
   "text_variables": {}

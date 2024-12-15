@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "9c8a5eee-0874-4af2-9902-0a13e28d76dc")
 	(paper "A4")
+	(title_block
+		(title "Open-PLC-Project")
+		(date "2024-12-01")
+		(company "-")
+		(comment 1 "See the file \"LICENSE\" in the main directory of this archive for more details.")
+		(comment 2 "This file is subject to the terms and conditions of the MIT License.")
+		(comment 3 "Copyright (c) 2024 Yoon-Ki Hong")
+	)
 	(lib_symbols
 		(symbol "Capacitor_MLCC:0603B104K500"
 			(pin_numbers hide)
@@ -2458,7 +2466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04f5d5ea-36fa-42b9-bc6d-480231cd4f2d")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0121"
 			(at 157.48 72.39 0)
 			(effects
 				(font
@@ -2507,11 +2515,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0112")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR073")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -2600,6 +2608,10 @@
 					(reference "R53")
 					(unit 1)
 				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R35")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2613,7 +2625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ea8407f-bfae-412c-bd6c-6bb994d0ad76")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0130"
 			(at 167.64 104.394 0)
 			(effects
 				(font
@@ -2662,11 +2674,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0121")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR092")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -2682,7 +2694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16830675-f157-42fa-b47d-18336877f6bc")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR0107"
 			(at 66.04 47.244 0)
 			(effects
 				(font
@@ -2731,11 +2743,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR098")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR080")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2751,7 +2763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a5e539d-261c-4d08-8435-9119026f1799")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR0122"
 			(at 157.48 81.534 0)
 			(effects
 				(font
@@ -2800,11 +2812,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0113")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR085")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -2819,7 +2831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e1b1b09-8ace-49c6-b743-174560a8b758")
-		(property "Reference" "R36"
+		(property "Reference" "R62"
 			(at 170.18 58.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2894,7 +2906,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "R36")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -2910,7 +2922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e535782-cc88-492a-8a8d-762ed081de8c")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0112"
 			(at 132.08 104.14 0)
 			(effects
 				(font
@@ -2959,11 +2971,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0103")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR088")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -3053,6 +3065,10 @@
 					(reference "R66")
 					(unit 1)
 				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R48")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3066,7 +3082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26ace180-bd27-45ac-88ff-c175950c1351")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0126"
 			(at 158.75 134.874 0)
 			(effects
 				(font
@@ -3115,11 +3131,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0117")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR095")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3129,14 +3145,14 @@
 		(lib_name "LM239DR2G_1")
 		(lib_id "Comparator:LM239DR2G")
 		(at 157.48 118.11 0)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "280f45f7-8982-427e-8a7a-b3202599ca5e")
-		(property "Reference" "U14"
+		(property "Reference" "U12"
 			(at 158.75 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3244,12 +3260,12 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "U18")
-					(unit 1)
+					(reference "U12")
+					(unit 3)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "U14")
-					(unit 1)
+					(reference "U13")
+					(unit 3)
 				)
 			)
 		)
@@ -3264,7 +3280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a10b2d9-4c4d-4c2b-a152-2f3fe9882353")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0131"
 			(at 168.91 131.064 0)
 			(effects
 				(font
@@ -3313,11 +3329,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0122")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR097")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -3401,6 +3417,10 @@
 					(reference "D7")
 					(unit 1)
 				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "D3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3414,7 +3434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e59d99b-34cd-40e0-8dc3-6bf14c848d7e")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0118"
 			(at 157.48 39.624 0)
 			(effects
 				(font
@@ -3463,11 +3483,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0109")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR082")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -3483,7 +3503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ec0cdcf-2a9c-4d97-9af0-d0c1167fc79c")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR0123"
 			(at 157.48 99.06 0)
 			(effects
 				(font
@@ -3532,11 +3552,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0114")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR086")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -3551,7 +3571,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42aa6a61-5e43-4281-9bed-f44a5ea28012")
-		(property "Reference" "R38"
+		(property "Reference" "R55"
 			(at 128.27 91.44 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3626,7 +3646,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "R38")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -3642,7 +3662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47b6310c-ea1b-4673-b847-7c290a4b0c8d")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0128"
 			(at 167.64 51.054 0)
 			(effects
 				(font
@@ -3691,7 +3711,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0119")
+					(reference "#PWR0128")
+					(unit 1)
+				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -3781,6 +3805,10 @@
 					(reference "R58")
 					(unit 1)
 				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "R40")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3794,7 +3822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52522ca6-80e6-44cb-ad11-f232f877c97f")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0117"
 			(at 138.43 128.524 0)
 			(effects
 				(font
@@ -3843,11 +3871,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0108")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR094")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -3863,7 +3891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57adb393-31fa-41f9-a964-ecbf15dc47a3")
-		(property "Reference" "R51"
+		(property "Reference" "R69"
 			(at 175.26 142.748 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3954,7 +3982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59277127-8a7c-40a1-be7b-215f6b5bc60e")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0116"
 			(at 137.16 101.854 0)
 			(effects
 				(font
@@ -4003,11 +4031,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0107")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR089")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -4023,7 +4051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "597ce2fb-8ef4-4062-9708-11544ffc0c5e")
-		(property "Reference" "R47"
+		(property "Reference" "R68"
 			(at 173.99 116.078 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4098,7 +4126,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "R47")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c864a47-9e51-4073-bf3e-34be0cc7bbd2")
-		(property "Reference" "R48"
+		(property "Reference" "R57"
 			(at 129.54 144.78 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4188,7 +4216,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "R48")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -4204,7 +4232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6052bb24-a326-49d9-b808-5d9f0a876b22")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0127"
 			(at 158.75 152.4 0)
 			(effects
 				(font
@@ -4253,11 +4281,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0118")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR096")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -4350,6 +4378,10 @@
 					(reference "C46")
 					(unit 1)
 				)
+				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
+					(reference "C44")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4363,7 +4395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66010136-3226-4cfe-907e-e2efdcc0961f")
-		(property "Reference" "R39"
+		(property "Reference" "R59"
 			(at 140.97 86.36 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4438,7 +4470,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "R39")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -4454,7 +4486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ad69489-fa6d-4624-a8b1-cdba58782930")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR0110"
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -4503,11 +4535,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0101")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR076")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -4523,7 +4555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d0c2387-5639-42e8-ae0b-4229fc9fbb70")
-		(property "Reference" "R45"
+		(property "Reference" "R60"
 			(at 140.97 113.03 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4598,7 +4630,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "R45")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -4614,7 +4646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e73fc65-1efa-4cf6-9062-b2763914c147")
-		(property "Reference" "D6"
+		(property "Reference" "D10"
 			(at 130.81 132.08 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4699,7 +4731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70683c48-bb84-4167-bdf5-4604c8135b2b")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR0109"
 			(at 71.12 74.93 0)
 			(effects
 				(font
@@ -4748,7 +4780,7 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0100")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
@@ -4767,7 +4799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72277589-8ea4-46db-84da-a90b1caf0344")
-		(property "Reference" "R40"
+		(property "Reference" "R52"
 			(at 63.5 55.88 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4838,11 +4870,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "R41")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "R40")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4857,7 +4889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73a402ee-9184-400d-a22f-cf9d4fc774a5")
-		(property "Reference" "R42"
+		(property "Reference" "R63"
 			(at 170.18 85.09 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4932,7 +4964,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "R42")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -4948,7 +4980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75d8fd4c-49c4-4f4f-b294-258ff8f0ef37")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR0119"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -4997,11 +5029,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0110")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR083")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -5017,7 +5049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87b0b5b9-0991-4a9d-a818-594694f60992")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0115"
 			(at 137.16 75.184 0)
 			(effects
 				(font
@@ -5066,11 +5098,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0106")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR079")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -5086,7 +5118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88fd03f6-e076-46b1-a5c3-92253ecd5752")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0113"
 			(at 133.35 130.81 0)
 			(effects
 				(font
@@ -5135,11 +5167,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0104")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR093")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -5155,7 +5187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bc3713e-0658-4448-a623-be81dacde518")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0120"
 			(at 157.48 54.864 0)
 			(effects
 				(font
@@ -5204,11 +5236,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0111")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR074")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -5224,7 +5256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a49bd95c-73b3-40d9-b82e-e2da557ad63d")
-		(property "Reference" "R49"
+		(property "Reference" "R61"
 			(at 142.24 139.7 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5299,7 +5331,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "R49")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -5309,14 +5341,14 @@
 		(lib_name "LM239DR2G_1")
 		(lib_id "Comparator:LM239DR2G")
 		(at 157.48 91.44 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab88885f-db39-450d-8895-071c6323cf32")
-		(property "Reference" "U13"
+		(property "Reference" "U12"
 			(at 158.75 87.63 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5383,22 +5415,22 @@
 			(uuid "8821e6c3-0c87-4c50-880b-c7d1de62f841")
 		)
 		(pin "14"
-			(uuid "3a23a0d3-c519-4e40-bfb4-be969ef09149")
+			(uuid "3a23a0d3-c519-4e40-bfb4-be969ef0914a")
 		)
 		(pin "10"
-			(uuid "685d6f5c-16a8-47e4-ae84-11d54c8a04a1")
+			(uuid "685d6f5c-16a8-47e4-ae84-11d54c8a04a2")
 		)
 		(pin "5"
-			(uuid "4110f8d9-9ecb-4d6c-b0ff-692d2b9126e7")
+			(uuid "4110f8d9-9ecb-4d6c-b0ff-692d2b9126e8")
 		)
 		(pin "9"
-			(uuid "d2121646-f027-466c-b78d-6dbb57fba94c")
+			(uuid "d2121646-f027-466c-b78d-6dbb57fba94d")
 		)
 		(pin "2"
-			(uuid "0b469329-5e94-4504-b51f-4bb205750c0d")
+			(uuid "0b469329-5e94-4504-b51f-4bb205750c0e")
 		)
 		(pin "13"
-			(uuid "573bbf65-a6d3-43da-bbaa-edc9f18f9f9f")
+			(uuid "573bbf65-a6d3-43da-bbaa-edc9f18f9fa0")
 		)
 		(pin "12"
 			(uuid "f915c6c1-217c-414b-8ab7-cefbc6108193")
@@ -5407,7 +5439,7 @@
 			(uuid "1d672295-055b-403e-b1d0-2884a0e4c28d")
 		)
 		(pin "4"
-			(uuid "95721ebf-d503-46d9-aaa6-c804d0ba23bd")
+			(uuid "95721ebf-d503-46d9-aaa6-c804d0ba23be")
 		)
 		(pin "6"
 			(uuid "729f7f71-d811-40fc-9b3f-0ac0d98888c2")
@@ -5416,20 +5448,20 @@
 			(uuid "206dd97a-12d5-4b95-a2b3-0d5910ced196")
 		)
 		(pin "11"
-			(uuid "b3b4ae97-d172-429c-be2e-67c0f0b604b8")
+			(uuid "b3b4ae97-d172-429c-be2e-67c0f0b604b9")
 		)
 		(pin "8"
-			(uuid "a266e156-f74e-45cd-a93d-3f82d1ab12ae")
+			(uuid "a266e156-f74e-45cd-a93d-3f82d1ab12af")
 		)
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "U17")
-					(unit 1)
+					(reference "U12")
+					(unit 2)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
 					(reference "U13")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -5444,7 +5476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abf49f90-76f7-4838-9a24-4fcb42e132cd")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0111"
 			(at 132.08 77.47 0)
 			(effects
 				(font
@@ -5493,11 +5525,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0102")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR078")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -5512,7 +5544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9421224-0d40-4e62-9a12-6e7120359ffc")
-		(property "Reference" "R46"
+		(property "Reference" "R64"
 			(at 170.18 111.76 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5602,7 +5634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9df6159-862e-4335-9ec9-0b8f9744e0cf")
-		(property "Reference" "R44"
+		(property "Reference" "R56"
 			(at 128.27 118.11 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5677,7 +5709,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "R44")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -5693,7 +5725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c85da15f-4fb9-4b41-aaa8-c29a5c2c2dab")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0124"
 			(at 157.48 108.204 0)
 			(effects
 				(font
@@ -5742,11 +5774,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0115")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR090")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -5761,7 +5793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "caa145a7-59ee-431f-a5f6-4df92e146fab")
-		(property "Reference" "R50"
+		(property "Reference" "R65"
 			(at 171.45 138.43 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5836,7 +5868,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "R50")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -5852,7 +5884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d14656b3-2148-423f-91a4-ef39c4f42951")
-		(property "Reference" "D3"
+		(property "Reference" "D8"
 			(at 129.54 78.74 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5921,7 +5953,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5937,7 +5969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1c666a1-fba5-4c74-9d1a-21229da2cdd6")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0125"
 			(at 157.48 125.73 0)
 			(effects
 				(font
@@ -5986,11 +6018,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0116")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR091")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -6005,7 +6037,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3d58eb4-e4f8-4c9e-96cd-9ae2d0b4d12d")
-		(property "Reference" "R34"
+		(property "Reference" "R54"
 			(at 128.27 64.77 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6080,7 +6112,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "R34")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -6096,7 +6128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4c11ad1-ba42-4a9d-8625-344c8d92805d")
-		(property "Reference" "C44"
+		(property "Reference" "C45"
 			(at 72.39 67.31 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6174,7 +6206,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "C44")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -6190,7 +6222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8e4a9dc-ba4e-4fca-83a0-100e86b2ca78")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR0114"
 			(at 137.16 48.514 0)
 			(effects
 				(font
@@ -6239,11 +6271,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0105")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR075")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -6259,7 +6291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcb405e2-92a2-469c-9471-0152ddb19d8b")
-		(property "Reference" "D5"
+		(property "Reference" "D9"
 			(at 129.54 105.41 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6344,7 +6376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5f974ff-2abc-4b07-ad4b-23d54f440b58")
-		(property "Reference" "R43"
+		(property "Reference" "R67"
 			(at 173.99 89.408 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6419,7 +6451,7 @@
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "R43")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -6435,7 +6467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea615760-f772-495f-b7cf-94e761e7df21")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR0129"
 			(at 167.64 77.724 0)
 			(effects
 				(font
@@ -6484,11 +6516,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR0120")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR087")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -6504,7 +6536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea69283d-ee07-4d19-805f-9416e4ce2532")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0108"
 			(at 66.04 74.93 0)
 			(effects
 				(font
@@ -6553,11 +6585,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "#PWR099")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "#PWR081")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -6567,14 +6599,14 @@
 		(lib_name "LM239DR2G_1")
 		(lib_id "Comparator:LM239DR2G")
 		(at 158.75 144.78 0)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f35e9807-733d-4f50-9530-028857c67807")
-		(property "Reference" "U15"
+		(property "Reference" "U12"
 			(at 160.02 140.97 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6641,22 +6673,22 @@
 			(uuid "145b6d50-0f14-4e47-9024-ecdf8e605c59")
 		)
 		(pin "14"
-			(uuid "3a23a0d3-c519-4e40-bfb4-be969ef09149")
+			(uuid "3a23a0d3-c519-4e40-bfb4-be969ef0914b")
 		)
 		(pin "10"
-			(uuid "685d6f5c-16a8-47e4-ae84-11d54c8a04a1")
+			(uuid "685d6f5c-16a8-47e4-ae84-11d54c8a04a3")
 		)
 		(pin "5"
-			(uuid "4110f8d9-9ecb-4d6c-b0ff-692d2b9126e7")
+			(uuid "4110f8d9-9ecb-4d6c-b0ff-692d2b9126e9")
 		)
 		(pin "9"
-			(uuid "d2121646-f027-466c-b78d-6dbb57fba94c")
+			(uuid "d2121646-f027-466c-b78d-6dbb57fba94e")
 		)
 		(pin "2"
-			(uuid "0b469329-5e94-4504-b51f-4bb205750c0d")
+			(uuid "0b469329-5e94-4504-b51f-4bb205750c0f")
 		)
 		(pin "13"
-			(uuid "573bbf65-a6d3-43da-bbaa-edc9f18f9f9f")
+			(uuid "573bbf65-a6d3-43da-bbaa-edc9f18f9fa1")
 		)
 		(pin "12"
 			(uuid "7c049191-f6dd-4610-a9af-5fd6eab32cf0")
@@ -6665,7 +6697,7 @@
 			(uuid "bf19c7e9-5a4d-4177-a878-e9e129d63497")
 		)
 		(pin "4"
-			(uuid "95721ebf-d503-46d9-aaa6-c804d0ba23bd")
+			(uuid "95721ebf-d503-46d9-aaa6-c804d0ba23bf")
 		)
 		(pin "6"
 			(uuid "3ebb7cec-6657-4b00-a580-70bec1166e6c")
@@ -6674,20 +6706,20 @@
 			(uuid "8cd9d538-e87d-4674-a229-cd1127c2d294")
 		)
 		(pin "11"
-			(uuid "b3b4ae97-d172-429c-be2e-67c0f0b604b8")
+			(uuid "b3b4ae97-d172-429c-be2e-67c0f0b604ba")
 		)
 		(pin "8"
-			(uuid "a266e156-f74e-45cd-a93d-3f82d1ab12ae")
+			(uuid "a266e156-f74e-45cd-a93d-3f82d1ab12b0")
 		)
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "U19")
-					(unit 1)
+					(reference "U12")
+					(unit 4)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"
-					(reference "U15")
-					(unit 1)
+					(reference "U13")
+					(unit 4)
 				)
 			)
 		)
@@ -6703,7 +6735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd35e1d6-6ce4-480f-a2d7-c055aa1557e3")
-		(property "Reference" "U12"
+		(property "Reference" "U13"
 			(at 158.75 60.96 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6770,22 +6802,22 @@
 			(uuid "e340a861-3233-4378-aac0-e4240401e971")
 		)
 		(pin "14"
-			(uuid "3a23a0d3-c519-4e40-bfb4-be969ef09149")
+			(uuid "3a23a0d3-c519-4e40-bfb4-be969ef0914c")
 		)
 		(pin "10"
-			(uuid "685d6f5c-16a8-47e4-ae84-11d54c8a04a1")
+			(uuid "685d6f5c-16a8-47e4-ae84-11d54c8a04a4")
 		)
 		(pin "5"
-			(uuid "4110f8d9-9ecb-4d6c-b0ff-692d2b9126e7")
+			(uuid "4110f8d9-9ecb-4d6c-b0ff-692d2b9126ea")
 		)
 		(pin "9"
-			(uuid "d2121646-f027-466c-b78d-6dbb57fba94c")
+			(uuid "d2121646-f027-466c-b78d-6dbb57fba94f")
 		)
 		(pin "2"
-			(uuid "0b469329-5e94-4504-b51f-4bb205750c0d")
+			(uuid "0b469329-5e94-4504-b51f-4bb205750c10")
 		)
 		(pin "13"
-			(uuid "573bbf65-a6d3-43da-bbaa-edc9f18f9f9f")
+			(uuid "573bbf65-a6d3-43da-bbaa-edc9f18f9fa2")
 		)
 		(pin "12"
 			(uuid "4f46f5fc-5e7c-4876-8ccb-bb3773b741b9")
@@ -6794,7 +6826,7 @@
 			(uuid "e30c6e3b-cb89-4d0c-a26c-6e6e18c85d2d")
 		)
 		(pin "4"
-			(uuid "95721ebf-d503-46d9-aaa6-c804d0ba23bd")
+			(uuid "95721ebf-d503-46d9-aaa6-c804d0ba23c0")
 		)
 		(pin "6"
 			(uuid "ab121d80-917c-4688-be58-d14207ed2a3d")
@@ -6803,15 +6835,15 @@
 			(uuid "ffeb29bb-277f-492a-a180-9e977d9a5956")
 		)
 		(pin "11"
-			(uuid "b3b4ae97-d172-429c-be2e-67c0f0b604b8")
+			(uuid "b3b4ae97-d172-429c-be2e-67c0f0b604bb")
 		)
 		(pin "8"
-			(uuid "a266e156-f74e-45cd-a93d-3f82d1ab12ae")
+			(uuid "a266e156-f74e-45cd-a93d-3f82d1ab12b1")
 		)
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/118d5dbd-6b9b-4ba5-a602-028a7302f09c"
-					(reference "U16")
+					(reference "U13")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/26fb2e73-ad60-4192-8be6-ff62c963986a"

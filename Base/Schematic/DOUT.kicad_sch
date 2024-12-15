@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "c4599fb6-61a2-44e2-aa1b-7e62154c13a1")
 	(paper "A4")
+	(title_block
+		(title "Open-PLC-Project")
+		(date "2024-12-01")
+		(company "-")
+		(comment 1 "See the file \"LICENSE\" in the main directory of this archive for more details.")
+		(comment 2 "This file is subject to the terms and conditions of the MIT License.")
+		(comment 3 "Copyright (c) 2024 Yoon-Ki Hong")
+	)
 	(lib_symbols
 		(symbol "0603B101K500_1"
 			(pin_numbers hide)
@@ -2056,7 +2064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10305510-6f95-4ace-ac1a-664921159fd1")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR079"
 			(at 166.37 109.22 0)
 			(effects
 				(font
@@ -2105,11 +2113,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
-					(reference "#PWR070")
+					(reference "#PWR079")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
-					(reference "#PWR064")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -2399,7 +2407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4103564c-3660-4593-a8d7-48c291a467e1")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR076"
 			(at 123.19 119.38 0)
 			(effects
 				(font
@@ -2448,11 +2456,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
-					(reference "#PWR067")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
-					(reference "#PWR061")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -2558,7 +2566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5edd2ecb-a1dd-4803-8d76-fc18def61207")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR080"
 			(at 173.99 71.374 0)
 			(effects
 				(font
@@ -2607,11 +2615,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
-					(reference "#PWR071")
+					(reference "#PWR080")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
-					(reference "#PWR065")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -2627,7 +2635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "687e53b1-3d92-474a-8498-50cc9f02fdd5")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR078"
 			(at 166.37 78.994 0)
 			(effects
 				(font
@@ -2676,11 +2684,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
-					(reference "#PWR069")
+					(reference "#PWR078")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
-					(reference "#PWR063")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -2786,7 +2794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9943589e-4999-473d-b12a-c3b536309a77")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR077"
 			(at 135.89 119.38 0)
 			(effects
 				(font
@@ -2835,11 +2843,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
-					(reference "#PWR068")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
-					(reference "#PWR062")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -3358,7 +3366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f591f694-9e9c-4ff8-8da5-faefd9d990fc")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR081"
 			(at 173.99 81.28 0)
 			(effects
 				(font
@@ -3407,11 +3415,11 @@
 		(instances
 			(project "Open-PLC-Project"
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/35842953-03b1-4d1a-a0b9-e32cdca1a04c"
-					(reference "#PWR072")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/0d177ca6-e392-45a0-9514-d370436392ef/caced042-0264-4901-a3a6-78acc82068a3"
-					(reference "#PWR066")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
